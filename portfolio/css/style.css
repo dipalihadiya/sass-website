@@ -1,0 +1,468 @@
+
+
+/* header */
+
+.main-bar{
+  font-family: 'Poppins';
+}
+.main-bar img{
+    width: 50px; 
+    height: 50px;
+}
+.main-bar{
+  background-color: #D4D4D4;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.main-bar{
+
+}
+.nav-item{
+    color: black;
+}
+nav ul li a{
+    color: black;
+}
+.nav-item a{
+    color: black;
+}
+
+/* banner */
+
+.banner{
+    background-image: url(../images/bann.avif);
+    width: 100%;
+    height:850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -150px;
+    z-index: -1;
+    position: relative;
+    font-family: 'Poppins';
+}
+  .banner-one{
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+    top: 30%;
+    left:0;
+  }
+  .banner p{
+    color: black;
+    font-family: 'Poppins';
+  }
+  .banner h3{
+    color: black;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    font-family: 'Poppins';
+  }
+  .banner span{
+    color: black;
+  }
+  .banner-two img{
+    width: 500px;
+    height: 450px;
+    margin-left:800px;
+    margin-top: 250px;
+  }
+
+  /* counter */
+
+  
+
+  .counter{
+    margin-top: 60px;
+    font-family: 'Poppins';
+  }
+  .timer a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color:grey;
+  }
+  .timer a img{
+    position: absolute;
+    top:9px;
+    left: 10px;
+    width: 40px;
+    height: 40px; 
+  }
+.time strong{
+    line-height: 1;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    margin-bottom: 4px;
+  }
+.time span{
+  font-weight: 600;
+  font-size: 15px;
+  color:grey;
+  text-transform: uppercase;
+}
+
+/* About */
+
+
+.about-info span{
+  color: gray;
+}
+.about{
+  font-family: 'Poppins';
+}
+.photo{
+  width: 400px;
+  height: 500px;
+  background-color: gray;
+  font-family: Poppins;
+}
+.photo img{
+  width: 400px;
+  height: 500px;
+
+} 
+.abou p{
+  color: grey;
+  
+}
+.abou h2{
+  color:black;
+  font-size: 34px;
+  font-weight: 600;
+}
+.abou span{
+  color: #999999;
+}
+.about{
+  margin-top: 80px;
+}
+.abou ul.about-info li span:first-child {
+  font-weight: 600;
+  color: #000000;
+  width: 130px;
+}
+.abou ul.about-info li span {
+  width: calc(100% - 130px);
+  font-weight: 600;
+  color:gray;
+}
+.musical a{
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color:grey;
+}
+.musical a img{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px; 
+}
+.musical span img{
+  height: 30px;
+}
+
+
+/* skills */
+
+
+.our-skills p{
+  color: grey;
+}
+.our-skills h2{
+  color:black;
+  font-size: 34px;
+  font-weight: 600;
+}
+.our-skills span{
+  color: #999999;
+}
+.Skills{
+  margin-top: 80px;
+  font-family: Poppins;
+}
+.myskills{
+  width: 100%;
+  height: 1000px;
+  background-color: #F8F9FA;
+  font-family: poppins;
+}
+.box{
+  width: 350px;
+  height: 390px;
+  background-color:#FFFFFF;
+  padding: 24px;
+  margin: 10px;
+}
+
+/* Services */
+
+.Services{
+  font-family: 'Poppins';
+  margin-top: 150px;
+}
+.our-grat p{
+  color: grey;
+}
+.our-grat h2{
+  color:black;
+  font-size: 34px;
+  font-weight: 600;
+}
+.our-grat span{
+  color: #999999;
+}
+.boxx{
+  width: 230px;
+  height: 230px;
+  background-color: #FFFFFF;
+  padding: 24px;
+  margin: 10px;
+  position: relative;
+  margin-top: 80px;
+
+}
+.boxx:hover{
+  background-color: gray;
+}
+.boxx-1 p{
+  color: gray
+}
+.boxx-1 p:hover{
+  color: white;
+}
+.boxx-1 .boxx img{
+font-size: 18px;
+font-weight: 500;
+}
+.web-data {
+  position: absolute;
+  top: -25px;
+  left: 10%;
+  border-radius: 50%;
+  display: block;
+  width: 75px;
+  height: 75px;
+  background-color:grey;
+}
+.web-data a img{
+  position: absolute;
+  top:15px;
+  left: 15px;
+  width: 40px;
+  height: 40px; 
+}
+
+  /* pro-mind */
+
+.maind{
+  width: 100%;
+  height: 234px;
+  background-color: gray;
+  margin-top: 80px;
+  font-family: 'Poppins';
+} 
+.maind-pro h2{
+  color: white;
+}
+.maind-pro p{
+  color: white;
+}
+.maind-photo a img{
+  width:234px ;
+  height:234px;
+}
+
+/* project */
+
+.project{
+  font-family: 'Poppins';
+}
+.pro-title p{
+  color: grey;
+}
+.pro-title h2{
+  color:black;
+  font-size: 34px;
+  font-weight: 600;
+}
+.pro-title span{
+  color: #999999;
+}
+.scrol a img{
+  width: 100%;
+  overflow-y: scroll;
+}
+.scrol-1{
+  width: 600px;
+  height: 300px;
+  overflow-y: scroll;
+
+}
+.scrol-2{
+  width: 600px;
+  height: 300px;
+  overflow-y: scroll;
+
+}
+.scrol-3{
+  width: 600px;
+  height: 300px;
+  overflow-y: scroll;
+
+}
+.scrol-4{
+  width: 600px;
+  height: 300px;
+  overflow-y: scroll;
+
+}
+.scroling{
+  margin-top: 60px;
+}
+
+
+/* blog */
+
+.blog{
+  width: 100%;
+  height: 579px;
+  background-color: gray;
+  margin-top: 80px;
+  font-family: 'Poppins';
+}
+.blog-title p{
+  color:white;
+}
+.blog-title h2{
+  color:white;
+  font-size: 34px;
+  font-weight: 600;
+}
+.blog-title span{
+  color: white;
+}
+.blog-title{
+  margin-top: 50px;
+}
+.bl{
+  width: 400px;
+  height: 300px;
+  border-radius: 10%;
+  background-color: white;
+}
+
+.bl img{
+  width: 30px;
+  height: 30px;
+}
+.luang{
+  margin-top: 20px;
+}
+
+/* content */
+
+.content{
+  font-family: 'Poppins';
+}
+
+.content-title p{
+  color:gray;
+}
+.content-title h2{
+  color:black;
+  font-size: 34px;
+  font-weight: 600;
+}
+.content-title span{
+  color:gray
+}
+.content-title{
+  margin-top: 50px;
+}
+form{
+  background-color: gray;
+}
+.icon a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color:grey;
+  border-radius: 50%;
+}
+.dbox a img{
+  position: absolute;
+  top:15px;
+  left: 15px;
+  width: 20px;
+  height: 20px; 
+}
+.text a{
+  color: gray;
+}
+.text p{
+  color: gray;
+}
+.text span{
+  color: black;
+}
+
+/* footer */
+
+
+.footer{
+  font-family: 'Poppins';
+  width: 100%;
+  height: 659px;
+  background-color: black;
+  margin-top: 100px;
+}
+span img{
+  width: 18px;
+  height: 18px;
+}
+.icons a{
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color:grey;
+  border-radius: 50%;
+}
+.dbox2 a img{
+  position: absolute;
+  top:10px;
+  left: 12px;
+  width: 18px;
+  height: 18px; 
+}
+.text-center img{
+  width: 18px;
+  height: 18px;
+}
+.text-center a{
+  color: white;
+  text-decoration: none;
+}
+.list-unstyled a{
+  line-height: 40px;
+  color: gray;
+}
+.ftco-footer-widget h2{
+  line-height: 100px;
+}
+.footer .btn a{
+  background-color: gray;
+  color: white;
+}
