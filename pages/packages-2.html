@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love-Travel</title>
+      <!-- aos-amimation -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- favicon-icon -->
+     <link rel="icon" href="../image/favicon.png">
+    <!-- icon -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="../css/fonts.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- css-file -->
+    <link rel="stylesheet" href="../css/packages-2.css">
+    <!-- main-style-css -->
+    <link rel="stylesheet" href="../css/package.css">
+</head>
+ <!-- off-canvas -->
+ <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="canvas1" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-body">
+        <div class="offcanvas__wrapper">
+            <div class="offcanvas_content">
+                <div class="offcanvas-top mb-40 d-flex justify-content-between align-items-center">
+                    <div class="canvas-logo">
+                        <a href="../index.html">
+                            <img src="../image/logo.png" alt="logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="canvas-close-btn">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="offcanvas__search position-relative mb-0">
+                    <form method="get">
+                        <button type="submit" id="offcanvas-search" ></button>
+                        <input type="text" name="s" value="" placeholder="Search here">
+                    </form>
+                </div>
+                <div class="mobile-menu mt-40">
+                    <div class="menu-bar">
+                        <nav>
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./package-1.html">Pages</a></li>
+                                <li><a href="./services.html">News</a></li>                                  
+                                <li><a href="./blog.html">blog</a></li>
+                                <li id="bb" ><a href="./Contact-Us.html">contact</a></li> 
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="offcanvas__about my-30">
+                    <h4>About Our Travel</h4>
+                    <p>Experience legendary service in the heart of royel. The new generation of luxury. A Haven of Comfort and Elegance in royel</p>
+                </div>
+                <div class="offcanvas__contact my-30">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li class="d-flex align-items-center mb-20 gap-2">
+                            <div class="offcanvas__contact_icon btn-d-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="offcanvas__contact_content">
+                                <a href="#">12/A, Mirnada City Tower, NYC</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center mb-20 gap-2">
+                            <div class="offcanvas__contact_icon btn-d-1">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="offcanvas__contact_content">
+                                <a href="#">+91 8980150444</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center mb-20 gap-2">
+                            <div class="offcanvas__contact_icon btn-d-1">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <div class="offcanvas__contact_content">
+                                <a href="raginirakholiya123@gmail.com">raginirakholiya123@g-...</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="offcanvas__social">
+                    <ul class="d-flex">
+                        <li><a href="#" class="btn-d-1 btn-d-2"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="btn-d-1 btn-d-2"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="btn-d-1 btn-d-2"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<body>
+    <header>
+        <div class="header py-2">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-center justify-content-between">
+                    <div class="col-xl-2 col-6">
+                        <div class="head-logo">
+                            <a href="../index.html">
+                                <img src="../image/logo.png" class="w-auto" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 d-xl-block d-none">
+                        <div class="menu">
+                            <nav>
+                                <ul class="list-unstyled d-flex">
+                                    <li class="p-4">
+                                        <a href="../index.html"  class="text-decoration-none">Home</a>
+                                    </li>
+                                    <li class="p-4 dropdown position-relative">
+                                        <a href="#" class="text-decoration-none">About</a>
+                                        <div class="dropdown-content bg-white rounded">
+                                            <ul>
+                                                <li>
+                                                    <a href="../pages/services.html" class="text-dark text-decoration-none fw-medium">Services</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../pages/about.html" class="text-dark text-decoration-none fw-medium">About Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../pages/preview.html" class="text-decoration-none fw-medium">Our Preview</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </li>
+                                      <li class="p-4  dropdown position-relative">
+                                        <a href="#" class="text-decoration-none">Pages</a>
+                                        <div class="dropdown-content bg-white rounded">
+                                              <ul>
+                                                  <li>
+                                                      <a href="../pages/package-1.html" class="text-dark text-decoration-none fw-medium">Package-1</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/packages-2.html" class="text-decoration-none fw-medium">Package-2</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/package-3.html" class="text-decoration-none fw-medium">Package-3</a>
+                                                  </li>
+                                              </ul>
+                                        </div>
+                                          <i class="fa-solid fa-chevron-down"></i>
+                                      </li>
+                                      <li class="p-4">
+                                          <a href="./shop.html" class="text-decoration-none">Shop</a>
+                                      </li>
+                                      <li class="p-4  dropdown position-relative">
+                                        <a href="#" class="text-decoration-none">Blog</a>
+                                        <div class="dropdown-content bg-white rounded">
+                                              <ul>
+                                                  <li>
+                                                      <a href="../pages/blog.html" class="text-dark fw-medium text-decoration-none">Blog-1</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/blog-2.html" class="text-dark fw-medium text-decoration-none">Blog-2</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/Greece.html" class="text-dark fw-medium text-decoration-none">Greece</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/prices.html" class="text-dark fw-medium text-decoration-none">prices</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/typology.html" class="text-dark fw-medium text-decoration-none">Typology</a>
+                                                  </li>
+                                              </ul>
+                                              </div>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </li>
+                                    <li class="p-4">
+                                        <a href="../pages/Contact-Us.html" class="text-decoration-none">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-none d-xxl-block d-flex">
+                        <div class="btn btn-primary" btn type="button" data-bs-toggle="offcanvas" data-bs-target="#canvas1" aria-controls="offcanvasRight">
+                            <span>Search</span>
+                        </div>
+                        <div class="btn btn-primary ms-4">
+                            <span>Book Now</span>
+                        </div>
+                    </div>
+                    <div class="col-3 d-block d-xl-none text-end">
+                      <div class="hamburger-menu" data-bs-toggle="offcanvas" data-bs-target="#canvas1" aria-controls="offcanvasRight">
+                          <a href="#" class="bg-btn px-3 py-2 rounded text-dark">
+                              <i class="fa-solid fa-bars"></i>
+                          </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+       <section class="natur-image"data-aos="fade-up"
+       data-aos-duration="3000">
+            <div class="container">
+                <div class="row">
+                   <div class="natur d-flex">
+                    <div class="col-4">
+                        <img src="../image/figure-1.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="../image/figure-2.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="../image/figure-3.png" alt="">
+                    </div> 
+                   </div>
+                </div>
+            </div>
+            <div class="map mt-5 d-flex d-flex justify-content-around justify-content-center">
+                <div class="time">
+                    <h3 class="fw-bold">Chiang Mai</h3>
+                <div class="image d-flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="bg-gray">Thailand<p>
+                </div>
+                </div>
+                
+                <div class="countering d-flex ">
+                    <div class="timer-1  d-flex mx-4 ">
+                        <div class="timer d-flex align-items-center">
+                        <a href="#" class="rounded-circle mx-4">
+                          <img src="../image/time.png" alt="">
+                        </a>
+                        <div class="time ">
+                            <span class="fw-medium">Duration</span>
+                            <strong class="fw-bold">1Week</strong>
+                         </div>
+                        </div>
+                     </div>
+            
+                    <div class="timer-2 d-flex mx-4 ">
+                        <div class="timer d-flex align-items-center">
+                        <a href="#" class="rounded-circle mx-4">
+                             <img src="../image/Symbol (1).png" alt="">
+                        </a>
+                        <div class="time ">
+                            <span class="fw-medium">Difficulty</span>
+                            <strong class="fw-bold">Easy</strong>
+                         </div>
+                        </div>
+                    </div>
+                    <div class="timer-3  d-flex mx-4 ">
+                        <div class="timer d-flex align-items-center">
+                        <a href="#" class="rounded-circle mx-4">
+                            <img src="../image/Symbol (2).png" alt="">
+                        </a>
+                        <div class="time  ">
+                            <span class="fw-medium">Min Age</span>
+                            <strong class="fw-bold">0</strong>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+       <section class="adventure "data-aos="fade-up"
+       data-aos-duration="3000">
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <h3 class="fw-bold mt-5">Enjoy The Adventure</h3>
+                        <p>Are you looking for an adventure of a lifetime? Join us on an unforgettable journey through some of the
+                            world's most stunning landscapes and cultural destinations. Our expertly curated tours take you to
+                            incredible destinations, from the rugged mountains of Patagonia to the vibrant cities of Asia. Our
+                            itineraries are designed to immerse you in the local culture, with opportunities to meet locals, try new
+                            foods, and learn about the history and traditions of each destination. Our experienced guides will lead
+                            you through each destination, sharing their knowledge and passion for travel. We offer a range of
+                            activities to suit every traveler, from hiking and kayaking to cultural tours and culinary experiences. </p><br>
+
+                            <p>Our accommodations are carefully selected for comfort and convenience, with options to suit every
+                            budget. Whether you prefer luxurious hotels or cozy homestays, we have something for everyone. At
+                            every step of the journey, we prioritize sustainability and responsible tourism. We work with local
+                            communities to ensure that our tours have a positive impact on the environment and the people we
+                            meet along the way. Join us on a journey of discovery and exploration, and discover the world's most
+                            incredible destinations with us.</p>
+                    </div>
+                    <div class="col-5 mt">
+                        <form id="book__now">
+                            <div>
+                                <div class="d-flex">
+                                    <div>
+                                        <label for="Destination">Your Destination</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Destination">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <div>
+                                            <label for="phone">phone</label>
+                                        </div>
+                                        <div>
+                                            <input type="number" name="num" placeholder="+91 000-000-0000">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <label for="count">ROOMS</label>
+                                        </div>
+                                        <div>
+                                            <select>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <div>
+                                            <label for="number">ADULTS</label>
+                                        </div>
+                                        <div>
+                                            <select>
+                                                <option value="1person">1 person</option>
+                                                <option value="2person">2 person</option>
+                                                <option value="3person">3 person</option>
+                                                <option value="4person">4 person</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <label for="number">CHILDREN</label>
+                                        </div>
+                                        <div>
+                                            <select>
+                                                <option value="1person">1 person</option>
+                                                <option value="2person">2 person</option>
+                                                <option value="3person">3 person</option>
+                                                <option value="4person">4 person</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <div>
+                                            <label>CHECK IN</label>
+                                        </div>
+                                        <div>
+                                            <input type="date" name="checkIn" id="" />
+                                        </div>
+                                    </div>
+                                    <div class="ml-55">
+                                        <div>
+                                            <label>CHECK OUT</label>
+                                        </div>
+                                        <div>
+                                            <input type="date" name="checkOut" id=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <button id="book-Now-btn">BOOK NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+       </section>
+       <section class="adventure2 "data-aos="fade-up"
+       data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="col-7   ">
+                    <h3 class="fw-bold mt-5">Included/Excluded</h3>
+                    <p>TO help you plan your trip, We have put togather a list of what's included and what's not included in your 
+                        tour package.this will give you a clear understanding of what to expect and help you make any
+                        necessary arrangements before your journey begins.</p>
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <!-- map -->
+    <section class="map"data-aos="fade-up"
+    data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="map-title">
+                    <h3 class="fw-bold mt-5">Tour Map</h3>
+                    <p>This comprehensive map is designed to guide you through an exciting journey filled with remarkable
+                        destinations and captivating experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+             <section class="mapbox overflow-hidden" id="contact" data-aos="fade-up"
+             data-aos-duration="3000">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238133.18800756568!2d72.65748445425247!3d21.159120355995483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1709028924857!5m2!1sen!2sin"></iframe>
+            </section>
+
+
+   <!-- Itinerary -->
+
+   <section class="Itinerary"data-aos="fade-up"
+   data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="map-title">
+                    <h3 class="fw-bold mt-5">Itinerary</h3>
+                    <p>We have carefully planned out each day to give you the best possible experience. From exploring historic
+                        landmarks to tasting delicious local cuisine, each day is packed with adventure and excitement. Join us
+                        as we take you on a journey through some of the most fascinating destinations in the world.</p>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    DAY 1 - Arrival and Orientation
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    DAY 2 - City Tour
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    DAY 3 - Cooking Class
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    DAY 4 - Nature Hike
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    DAY 5 - Free Day
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <!-- GALLERY -->
+
+   <section class="gallery"data-aos="fade-up"
+   data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="all-gallery">
+                    <div class="gallery-title justify-content-center">
+                        <h3 class="fw-bold mt-5">Gallery</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam sed accusamus perferendis nihil alias! </p>
+                   </div>
+                   <div class="col-8 m-4 d-flex">
+                        <div class="col-4 mx-2"><img src="../image/im1.png" alt=" " class="rounded"></div>
+                        <div class="col-4 mx-2"><img src="../image/im2.png" alt="" class="rounded"></div>
+                        <div class="col-4 mx-2"><img src="../image/im3.png" alt="" class="rounded"></div>
+                    </div>
+                    <div class="col-8 m-4 d-flex">
+                        <div class="col-4 mx-2"><img src="../image/im4.png" alt=" " class="rounded"></div>
+                        <div class="col-4 mx-2"><img src="../image/im5.png" alt="" class="rounded"></div>
+                        <div class="col-4 mx-2"><img src="../image/im6.jpg" alt="img" class="rounded"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                      <img src="../image/detail-16.png" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Chiang Mai</h5>
+                        <div class="days-box bg-white">
+                            <div class="watch d-flex">
+                                <i class="fa-solid fa-clock"></i>
+                                <div class="mail-map d-flex">
+                                    <div class="mail">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                    <div class="map">
+                                        <i class="fa-solid fa-map-pin"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="line"></div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Visit the temples and the Chiang Mai Night
+                            Bazaar, a huge huge market located on
+                            Chiang Klan Road.</li>
+                      </ul>
+                      <div class="line"></div>
+                      <div class="card-body d-flex align-items-center justify-content-between">
+                        <div>
+                            <span style="font-size: 13px; color: #6E6E6E;">from</span>
+                            <h2 class="fs-4 fw-bolder">$490</h2>
+                        </div>
+                        <button class="btns btn-1 btn-primary text-center">
+                            <span class="text-white">Detail</span>
+                        </button>
+                      </div>
+                    </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+                <img src="../image/detail-7.png" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Chiang Mai</h5>
+                  <div class="days-box bg-white">
+                      <div class="watch d-flex">
+                          <i class="fa-solid fa-clock" style="color: #14B9D5;"></i>
+                          <div class="mail-map d-flex">
+                              <div class="mail">
+                                  <i class="fa-solid fa-envelope" style="color: #14B9D5;"></i>
+                              </div>
+                              <div class="map">
+                                  <i class="fa-solid fa-map-pin" style="color: #14B9D5;"></i>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="line"></div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Visit the temples and the Chiang Mai Night
+                      Bazaar, a huge huge market located on
+                      Chiang Klan Road.</li>
+                </ul>
+                <div class="line"></div>
+                <div class="card-body d-flex align-items-center justify-content-between">
+                    <div>
+                        <span style="font-size: 13px; color: #6E6E6E;">from</span>
+                        <h2 class="fs-4 fw-bolder">$98</h2>
+                    </div>
+                    <button class="btns btn-2 btn-primary text-center" style="background-color: #14B9D5;">
+                        <span class="text-white">Detail</span>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                      <img src="../image/detail-3.png" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Chiang Mai</h5>
+                        <div class="days-box bg-white">
+                            <div class="watch d-flex">
+                                <i class="fa-solid fa-clock" style="color: #BA71DA;"></i>
+                                <div class="mail-map d-flex">
+                                    <div class="mail">
+                                        <i class="fa-solid fa-envelope" style="color: #BA71DA;"></i>
+                                    </div>
+                                    <div class="map">
+                                        <i class="fa-solid fa-map-pin" style="color: #BA71DA;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="line"></div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Visit the temples and the Chiang Mai Night
+                            Bazaar, a huge huge market located on
+                            Chiang Klan Road.</li>
+                      </ul>
+                      <div class="line"></div>
+                      <div class="card-body d-flex align-items-center justify-content-between">
+                        <div>
+                            <span style="font-size: 13px; color: #6E6E6E;">from</span>
+                            <h2 class="fs-4 fw-bolder">$920</h2>
+                        </div>
+                        <button class="btns btn-3 btn-primary text-center" style="background-color: #BA71DA;">
+                            <span class="text-white">Detail</span>
+                        </button>
+                      </div>
+                    </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+                <img src="../image/detail-10.png" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Chiang Mai</h5>
+                  <div class="days-box bg-white">
+                      <div class="watch d-flex">
+                          <i class="fa-solid fa-clock" style="color: #F76570;"></i>
+                          <div class="mail-map d-flex">
+                              <div class="mail">
+                                  <i class="fa-solid fa-envelope" style="color: #F76570;"></i>
+                              </div>
+                              <div class="map">
+                                  <i class="fa-solid fa-map-pin" style="color: #F76570;"></i>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="line"></div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Visit the temples and the Chiang Mai Night
+                      Bazaar, a huge huge market located on
+                      Chiang Klan Road.</li>
+                </ul>
+                <div class="line"></div>
+                <div class="card-body d-flex align-items-center justify-content-between">
+                    <div>
+                        <span style="font-size: 13px; color: #6E6E6E;">from</span>
+                        <h2 class="fs-4 fw-bolder">$122</h2>
+                    </div>
+                    <button class="btns btn-4 btn-primary text-center" style="background-color: #F76570;">
+                        <span class="text-white">Detail</span>
+                    </button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>                        
+    </main>
+    <footer class="footer py-120 pb-0">
+        <div class="container">
+            <div class="row text-white py-120 pt-0">
+                  <div class="col-12 col-lg-6">
+                        <div class="footer-heading">
+                              <h1 class="fw-bold lh-sm">Travel beyond your imagination, with our Travel Agency!</h1>
+                        </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 py-5 py-xl-0">
+                        <div class="footer-add">
+                              <h4 class="fw-bold mb-4">Address</h4>
+                              <ul class="list-unstyled">
+                                    <li class="py-1 mb-2 fw-light">1080 Brickell Ave</li>
+                                    <li class="py-1 mb-2 fw-light">Miami - Florida</li>
+                                    <li class="py-1 mb-2 fw-light">U.S. of America</li>
+                              </ul>
+                              <ul class="icon-list list-unstyled d-flex">
+                                    <li class="pe-4">
+                                          <a href="#" class="text-white">
+                                                <i class="fa-brands fa-facebook"></i>
+                                          </a>
+                                    </li>
+                                    <li class="pe-4">
+                                          <a href="#" class="text-white">
+                                                <i class="fa-brands fa-twitter"></i>
+                                          </a>
+                                    </li>
+                                    <li>
+                                          <a href="#" class="text-white">
+                                                <i class="fa-brands fa-youtube"></i>
+                                          </a>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 py-5 py-xl-0">
+                        <div class="footer-contact">
+                              <h4 class="fw-bold mb-4">Contact</h4>
+                              <div class="info-btn mb-4">
+                                    <a href="#" class="btn btn-primary">info@travel.com</a>
+                              </div>
+                              <span class="fw-bold mt-2">+ 01 483 593 284</span>
+                        </div>
+                  </div>
+            </div>
+      </div>
+        <hr style="border-bottom: 2px dotted white;">
+        <section class="">
+            <div class="container">
+                <div class="row">
+                    <div class="co-12 text-center text-white">
+                       <span class="fw-semibold"> @ copyright : Team-C</span> <span>|</span> <span style="color: #1BBC9B;">Dipali Hadiya</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+       </footer>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- aos-amimation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+  </script>
+</body>
+</html>

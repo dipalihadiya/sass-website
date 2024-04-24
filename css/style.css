@@ -1,0 +1,443 @@
+.pt-150{
+    padding-top: 150px;
+}
+.pb-150{
+    padding-bottom: 150px;
+}
+.py-150{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.bg-btn{
+    background-color: #1BBC9B;
+}
+.header{
+    background-color: var(--sec-color);
+}
+
+/* Loader */
+
+.Loader-wrraper{
+    background-color: #1BBC9B;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
+}
+/* banner */
+.banner{
+    background-color: var(--sec-color);
+    z-index: 1;
+}
+.banner-img{
+    background-image: url(../image/div.elementor-background-overlay.png);
+    height:800px;
+    width: 100%;
+    object-fit: cover;
+    z-index: 2;
+    background-position: 20% 30%;
+}
+.banner-content{
+    text-align: start;
+}
+.banner-content h6{
+    font-size: 16px;
+    font-family: var(--sans-font);
+    color: var(--black-color);
+}
+.banner-content p{
+    font-size: 26px;
+    font-family: var(--sans-font);
+}
+#book__now{
+    display: inline-block;
+    background-color: var(--sec-color);
+    border: 2px solid var(--primary-color);
+    padding:50px;
+    border-radius: 20px;
+}
+#book__now input , #book__now select{
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    border-bottom: 1px solid #d8e0e7;
+}
+#book__now label{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 0 5px;
+    margin: 10px;
+}
+#book-Now-btn{
+    width: 100%;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: 1px solid var(--primary-color);
+    transition: all 0.1s;
+}
+#book-Now-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+} 
+/* about */
+.about-content span , .choose-your-trip span , .next-adventure-content span , .Adventure-travel-img-content span , .travel-package span , .discover-adventure span , .travel-blog span{
+    font-size: 28px;
+    font-family: var(--sans-serif-font);
+    color: var(--primary-color);
+}
+.about-content h6 , .next-adventure-content h6 , .Adventure-travel-img-content h6 , .unforgatteable-content h6 , .travel-package h6 , .discover-adventure h6 , .travel-blog h6{
+    font-size: 50px;
+    font-family: var(--sans-font);
+    /* font-weight: 600; */
+    color: var(--black-color);
+}
+.about-content p , .next-adventure-content p , .Adventure-travel-img-content p , .unforgatteable-content p , .travel-package p , .discover-adventure p , .travel-blog p{
+    font-size: 16px;
+    font-family: var(--sans-font);
+    font-weight: 400;
+    color: var(--content-color);
+}
+.about-img{
+    position: relative;
+}
+.about-img-content .city-name h6{
+    font-size: 20px;
+    font-family: var(--sans-font);
+    color: var(--white-color);
+    padding-left: 50px;  
+}
+.icon img{
+ padding-left: 40px;
+}
+.about-img-content{
+    position: absolute;
+    top: 20%;
+}
+.card{
+    --bs-card-border-color: none;
+}
+.card{
+    margin-top: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card .card-body h5{
+    font-family: var(--sans-font);
+}
+.days-box{
+    width: 245px;
+    height: 28px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-top: 15px;
+}
+.watch i{
+    color: var(--primary-color);
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.mail i{
+    color: var(--primary-color);
+    font-size: 14px;
+    margin-left: 170px;
+}
+.map i{
+    color: var(--primary-color);
+    font-size: 14px;
+}
+.line{
+    background-color: #E4E4E4;
+    width: 250px;
+    height: 1.3px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.card ul li{
+    font-family: var(--sans-font);
+    font-size: 14px;
+    color: var(--fonts-color);
+    margin-top: 10px;
+}
+.btns{
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--bs-btn-bg);
+}
+/* choose-your-trip */
+.choose-your-trip span{
+    margin: 0px 0px 30px;
+}
+.choose-your-trip h6{
+    font-size: 35px;
+    font-family: var(--sans-font);
+    font-weight: 600;
+    color: var(--black-color);
+    margin: 0px 0px 30px;
+}
+.choose-your-trip p{
+    font-size: 16px;
+    font-family: var(--sans-font);
+    color: var(--black-color);
+    font-weight: 400;
+    margin: 0px 0px 35px;
+}
+/* count */
+.video{
+    background : rgba(0, 0, 0, 0.6)url('../image/banner-section.png');
+    width: 100%;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 390px;
+    background-attachment: fixed;
+}
+.comments {
+    padding: 35px 15px 0;
+    text-align: center;
+    margin-top: 90px;
+}
+.comments h5 {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: var(--sans-font);
+    letter-spacing: 4px;
+    line-height: 20px;
+}
+.comments span {
+    font-size: 56px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: var(--sans-font);
+}
+/* next-adventure */
+.next-adventure-img-box{
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+}
+.next-adventure-img-box::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 1;
+}
+.next-adventure-img-content{
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    z-index: 2;
+    padding: 10px;
+}
+.next-adventure-img-content h6{
+    font-size: 20px;
+    color: var(--white-color);
+    font-family: var(--sans-font);
+}
+.next-adventure-img-content p{
+    font-size: 14px;
+    color: var(--white-color);
+    font-family: var(--sans-font);
+    margin-bottom: 10px;
+}
+.next-adventure-img-box{
+    overflow: hidden;
+}
+.ad-img img{
+    transition: all 0.3s;
+}
+.ad-img:hover img{
+    scale: 1.1;
+}
+/* Adventure-travel */
+.At-img-content img{
+    padding: 0px 0px 10px;
+}
+.At-img-content{
+    margin-top: 10px;
+}
+.At-img-content h5{
+    font-size: 16px;
+    font-family: var(--sans-font);
+    font-weight: 600;
+    color: var(--white-color);
+    padding-left: 20px;
+}
+.btn span{
+    font-family: var(--sans-font);
+    font-size: 15px;
+}
+.line{
+    background-color: #E4E4E4;
+    width:100%;
+    height: 1.3px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+/* Adventure Travel */
+.Adventure-travel{
+    background-image: url(../image/travel-bg.jpg);
+    height: 840px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 70% 50%;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+}
+/* unfogatteble-travel */
+.unforgatteable-travel{
+    height: 830px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    background-blend-mode: darken;
+    background: rgba(0, 0, 0, 0.3) url(../image/banner-section.png);
+}
+.travel-review-box{
+    background-color: #1BBc9b;
+    border-radius: 10px;
+}
+.travel-review-box p{
+    font-size: 25px;
+    color: var(--white-color);
+    font-family: var(--sans-font);
+}
+.travel-review-box h6{
+    font-size: 16px;
+    font-family: var(--sans-font);
+    color: var(--white-color);
+    font-weight: 600;
+}
+.travel-review-box span{
+    font-size: 14px; 
+    font-family: var(--sans-font);
+    color: var(--white-color);
+
+}
+/* travel-package */
+.package-card{
+    background-color: #f2f2f2;
+    padding: 60px 30px;
+    border-radius: 10px;
+}
+.package-card h6 , .package-card span{
+    font-size: 20px;
+    font-family: var(--sans-font);
+    color: var(--black-color);
+}
+.package-card h2{
+    font-size: 80px;
+    font-family: var(--sans-font);
+    color: var(--black-color);
+}
+.package-card ul li{
+    line-height:2;
+}
+.package-card ul li a{
+    font-size: 16px;
+    font-family: var(--sans-font);
+    color: var(--content-color);
+}
+.discover-adventure h5{
+    font-size: 16px;
+    font-family: var(--sans-font);
+    color: var(--content-color);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.progress, .progress-stacked {
+    --bs-progress-height: 0.20rem;
+    --bs-progress-font-size: 0.75rem;
+    --bs-progress-bg: var(--bs-secondary-bg);
+    --bs-progress-border-radius: var(--bs-border-radius);
+    --bs-progress-box-shadow: var(--bs-box-shadow-inset);
+    --bs-progress-bar-color: #fff;
+    --bs-progress-bar-bg: #0d6efd;
+    --bs-progress-bar-transition: width 0.6s ease;
+    display: flex;
+    height: var(--bs-progress-height);
+    overflow: hidden;
+    font-size: var(--bs-progress-font-size);
+    background-color: var(--bs-progress-bg);
+    border-radius: var(--bs-progress-border-radius);
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--bs-progress-bar-color);
+    text-align: center;
+    white-space: nowrap;
+    background-color:#6E6E6E;
+    transition: var(--bs-progress-bar-transition);
+}
+/* travel-blog */
+.travel-blog-img h5{
+    font-size: 25px;
+    font-family: var(--sans-font);
+    color: var(--black-color);
+    margin-bottom: 10px;
+    padding: 10px 0px 0px 0px;
+}
+.travel-blog-img p{
+    font-size: 16px;
+    font-family: var(--sans-font);
+    color: var(--content-color);
+}
+.date-btn{
+    padding-bottom: 15px;
+}
+.place-details{
+    padding-left: 20px;
+}
+.place-content h6{
+    font-size: 20px;
+    font-family: var(--sans-font);
+    color: var(--black-color);
+}
+.place-content p{
+    font-size: 16px;
+    font-family: var(--sans-font);
+    color: var(--content-color);
+}
+/* footer */
+.py-120{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 60px;
+    aspect-ratio: 1;
+    background: linear-gradient(#dc1818 0 0) bottom/100% 0% no-repeat #ccc;
+    -webkit-mask: 
+      radial-gradient(circle at 60% 65%, #000 62%, #0000 65%) top left, 
+      radial-gradient(circle at 40% 65%, #000 62%, #0000 65%) top right, 
+      linear-gradient(to bottom left, #000 42%,#0000 43%) bottom left , 
+      linear-gradient(to bottom right,#000 42%,#0000 43%) bottom right;
+    -webkit-mask-size: 50% 50%;
+    -webkit-mask-repeat: no-repeat;
+    animation: l19 2s infinite linear;
+  }
+  @keyframes l19 {
+      90%,100% {background-size:100% 100%}
+  }

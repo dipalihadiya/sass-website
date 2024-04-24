@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Love-Travel</title>
+              <!-- aos-amimation -->
+              <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+            <!-- bootstrap -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+            <!-- favicon-icon -->
+            <link rel="icon" href="../image/favicon.png">
+            <!-- style-css -->
+            <link rel="stylesheet" href="../css/package.css">
+            <!-- fonts -->
+            <link rel="stylesheet" href="../css/fonts.css">
+            <!-- all.min -->
+            <link rel="stylesheet" href="../css/all.min.css">
+            <!-- blog -->
+            <link rel="stylesheet" href="../css/blog.css">
+          </head>
+          <!-- off-canvas -->
+      <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="canvas1" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-body">
+          <div class="offcanvas__wrapper">
+              <div class="offcanvas_content">
+                  <div class="offcanvas-top mb-40 d-flex justify-content-between align-items-center">
+                      <div class="canvas-logo">
+                          <a href="../index.html">
+                              <img src="../image/logo.png" alt="logo" class="img-fluid">
+                          </a>
+                      </div>
+                      <div class="canvas-close-btn">
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                  </div>
+                  <div class="offcanvas__search position-relative mb-0">
+                      <form method="get">
+                          <button type="submit" id="offcanvas-search" ></button>
+                          <input type="text" name="s" value="" placeholder="Search here">
+                      </form>
+                  </div>
+                  <div class="mobile-menu mt-40">
+                      <div class="menu-bar">
+                          <nav>
+                              <ul>
+                                    <li><a href="../index.html">Home</a></li>
+                                    <li><a href="./about.html">About</a></li>
+                                    <li><a href="./package-1.html">Pages</a></li>
+                                    <li><a href="./services.html">News</a></li>                                  
+                                    <li><a href="./blog.html">blog</a></li>
+                                    <li id="bb" ><a href="./Contact-Us.html">contact</a></li> 
+                              </ul>
+                          </nav>
+                      </div>
+                  </div>
+                  <div class="offcanvas__about my-30">
+                      <h4>About Our Travel</h4>
+                      <p>Experience legendary service in the heart of royel. The new generation of luxury. A Haven of Comfort and Elegance in royel</p>
+                  </div>
+                  <div class="offcanvas__contact my-30">
+                      <h4>Contact Info</h4>
+                      <ul>
+                          <li class="d-flex align-items-center mb-20 gap-2">
+                              <div class="offcanvas__contact_icon btn-d-1">
+                                  <i class="fa-solid fa-location-dot"></i>
+                              </div>
+                              <div class="offcanvas__contact_content">
+                                  <a href="#">12/A, Mirnada City Tower, NYC</a>
+                              </div>
+                          </li>
+                          <li class="d-flex align-items-center mb-20 gap-2">
+                              <div class="offcanvas__contact_icon btn-d-1">
+                                  <i class="fa-solid fa-phone"></i>
+                              </div>
+                              <div class="offcanvas__contact_content">
+                                  <a href="#">+91 8980150444</a>
+                              </div>
+                          </li>
+                          <li class="d-flex align-items-center mb-20 gap-2">
+                              <div class="offcanvas__contact_icon btn-d-1">
+                                  <i class="fa-regular fa-envelope"></i>
+                              </div>
+                              <div class="offcanvas__contact_content">
+                                  <a href="raginirakholiya123@gmail.com">raginirakholiya123@g-...</a>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="offcanvas__social">
+                      <ul class="d-flex">
+                          <li><a href="#" class="btn-d-1 btn-d-2"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#" class="btn-d-1 btn-d-2"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#" class="btn-d-1 btn-d-2"><i class="fab fa-youtube"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+<body>
+      <header>
+            <div class="header py-2">
+                <div class="container">
+                    <div class="row d-flex align-items-center justify-content-center justify-content-between">
+                        <div class="col-xl-2 col-6">
+                            <div class="head-logo">
+                                <a href="../index.html">
+                                    <img src="../image/logo.png" class="w-auto" alt="logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 d-xl-block d-none">
+                            <div class="menu">
+                                <nav>
+                                    <ul class="list-unstyled d-flex">
+                                        <li class="p-4">
+                                            <a href="../index.html"  class="text-decoration-none">Home</a>
+                                        </li>
+                                        <li class="p-4 dropdown position-relative">
+                                          <a href="#" class="text-decoration-none">About</a>
+                                          <div class="dropdown-content bg-white rounded">
+                                              <ul>
+                                                  <li>
+                                                      <a href="../pages/services.html" class="text-dark text-decoration-none fw-medium">Services</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/about.html" class="text-dark text-decoration-none fw-medium">About Us</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/preview.html" class="text-decoration-none fw-medium">Our Preview</a>
+                                                  </li>
+                                              </ul>
+                                          </div>
+                                          <i class="fa-solid fa-chevron-down"></i>
+                                      </li>
+                                        <li class="p-4  dropdown position-relative">
+                                          <a href="#" class="text-decoration-none">Pages</a>
+                                          <div class="dropdown-content bg-white rounded">
+                                                <ul>
+                                                    <li>
+                                                        <a href="../pages/package-1.html" class="text-dark text-decoration-none fw-medium">Package-1</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="../pages/packages-2.html" class="text-decoration-none fw-medium">Package-2</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="../pages/package-3.html" class="text-decoration-none fw-medium">Package-3</a>
+                                                    </li>
+                                                </ul>
+                                          </div>
+                                            <i class="fa-solid fa-chevron-down"></i>
+                                        </li>
+                                        <li class="p-4">
+                                            <a href="./shop.html" class="text-decoration-none">Shop</a>
+                                        </li>
+                                        <li class="p-4  dropdown position-relative">
+                                          <a href="#" class="text-decoration-none">Blog</a>
+                                          <div class="dropdown-content bg-white rounded">
+                                                <ul>
+                                                    <li>
+                                                        <a href="../pages/blog.html" class="text-dark fw-medium text-decoration-none">Blog-1</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="../pages/blog-2.html" class="text-dark fw-medium text-decoration-none">Blog-2</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="../pages/Greece.html" class="text-dark fw-medium text-decoration-none">Greece</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="../pages/prices.html" class="text-dark fw-medium text-decoration-none">prices</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="../pages/typology.html" class="text-dark fw-medium text-decoration-none">Typology</a>
+                                                    </li>
+                                                </ul>
+                                                </div>
+                                          <i class="fa-solid fa-chevron-down"></i>
+                                      </li>
+                                        <li class="p-4">
+                                            <a href="../pages/Contact-Us.html" class="text-decoration-none">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-md-3 d-none d-xxl-block d-flex">
+                              <div class="btn btn-primary" btn type="button" data-bs-toggle="offcanvas" data-bs-target="#canvas1" aria-controls="offcanvasRight">
+                                  <span>Search</span>
+                              </div>
+                              <div class="btn btn-primary ms-4">
+                                  <span>Book Now</span>
+                              </div>
+                        </div>
+                        <div class="col-3 d-block d-xl-none text-end">
+                            <div class="hamburger-menu" data-bs-toggle="offcanvas" data-bs-target="#canvas1" aria-controls="offcanvasRight">
+                                <a href="#" class="bg-btn px-3 py-2 rounded text-dark">
+                                    <i class="fa-solid fa-bars"></i>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="blog-2 banner" data-aos="fade-up"
+            data-aos-duration="3000">
+                  <div class="banner-content position-absolute top-50 start-50 translate-middle text-black text-center">
+                        <h1 class="fw-bold mb-8">Plan the Perfect Vacation</h1>
+                        <span style="color: #6e6e6e;" class="fw-medium">Apr 7 2023</span>
+                        <div class="drop-button mx-auto d-flex justify-content-center">
+                              <a href="#client-slider" class="rounded-circle d-block position-relative mt-4 text-white" style="width: 42px; height: 42px; background-color: #1BBC9B;">
+                                    <i class="fa-solid fa-angle-down position-absolute top-50 start-50 translate-middle"></i>
+                              </a>
+                        </div>
+                  </div> 
+            </section>
+            <section class="img-section"data-aos="fade-up"
+            data-aos-duration="3000">
+                  <div class="container">
+                        <div class="row">
+                              <div class="city-img text-center" style="margin-top: -200px;">
+                                    <img src="../image/blog-city.png" alt="city" />
+                              </div>
+                              <div class="blog-para mt-5">
+                                    <p class="lh-base mb-4">There are so many places to explore, so many adventures waiting for you. What makes a great travel destination? It depends on what kind of traveler you are: whether
+                                          it's culture, natural beauty or history that interests you most; whether your idea of fun is hiking through mountains or lounging on white-sand beaches; if food is more
+                                          important than sights when planning an itinerary (and vice versa).
+                                    </p>
+                                    <p class="lh-base mb-5">There are also practical considerations like cost and time spent traveling from place to place and maybe even how much luggage space there is in the car/plane/train
+                                          compartment where we'll be sleeping tonight! But no matter what kind of traveler they are or what they're looking for out of their next trip abroad, everyone should
+                                          consider many factors before booking their flight(s).
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="sec-2"data-aos="fade-up"
+            data-aos-duration="3000">
+                  <div class="container">
+                        <div class="client-slider" id="client-slider">
+                              <div class="col-12">
+                                    <div class="slider py-5 px-5 text-center" style="height: 320px;">
+                                          <p class="lh-lg mb-5">I recently used the services of thisbTravel Agency for my trip to Europe and I couldn't be happier. The team took care of everything
+                                                from flights to hotels to tours, making my trip planning stress-free. They were very knowledgeable about the destinations and gave
+                                                great recommendations on things to do and see.
+                                          </p>
+                                          <div class="user-detail d-flex justify-content-center align-items-center ">
+                                                <div class="user-img me-3">
+                                                      <img src="../image/user-1.png" alt="user-1" />
+                                                </div>
+                                                <div class="user-name text-start">
+                                                      <h5 class="mb-0 text-black fw-bold">Emily Stuart</h5>
+                                                      <span>Miami</span>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="sec-3"data-aos="fade-up"
+            data-aos-duration="3000">
+                  <div class="container">
+                        <div class="blog-para mt-5">
+                              <p class="lh-base mb-5">Our team of experienced travel experts is here to help you plan every aspect of your trip, from flights and accommodations to activities and tours. We understand that
+                                    everyone's travel preferences are unique, which is why we take the time to get to know you and your travel style before creating a personalized itinerary. Once the project
+                                    starts, it is important to check in with the handyman on a regular basis to ensure the job is being completed correctly. The homeowner should also ensure that the
+                                    handyman is following safety protocols.
+                              </p>
+                        </div>
+                        <div class="holiday-images">
+                              <div class="container">
+                                    <div class="row pb-5 row-gap-3">
+                                          <div class="col-12 col-md-6">
+                                                <img src="../image/blog-img-1.png" alt="blog-1" />
+                                          </div>
+                                          <div class="col-12 col-md-6">
+                                                <img src="../image/blog-img-2.png" alt="blog-2" />
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="sec-4"data-aos="fade-up"
+            data-aos-duration="3000">
+                  <div class="container">
+                        <div class="row">
+                              <div class="travel-detail mt-3">
+                                    <h2 class="fw-bold text-black mb-4">Business & Holiday Travel</h2>
+                                    <p class="lh-base mb-5">Whether you're traveling solo, with a partner, or with a group, we are committed to providing you with a stress-free and unforgettable travel experience. So why wait?
+                                          Contact us today to start planning your next adventure! Handyman services are an ideal solution for busy homeowners. Instead of spending time trying to fix things
+                                          around the house, you can leave it to the professionals and have them take care of it for you.</p>
+                              </div>
+                              <div class="full-img pb-5">
+                                    <img src="../image/full-img.png" alt="full-img" />
+                              </div>
+                              <hr class="mb-4">
+                              <div class="preview-box d-flex align-items-center">
+                                    <div class="preview-btn pe-3 me-2">
+                                          <a href="#" style="width: 30px; height: 30px;" class="bg-btn d-block rounded-circle position-relative">
+                                                <i class="fa-solid fa-angle-left position-absolute top-50 start-50 translate-middle"></i>
+                                          </a>
+                                    </div>
+                                    <div class="preview">
+                                          <h2 class="fw-bold">Previous</h2>
+                                    </div>
+                              </div>
+                              <hr class="mt-4">
+                        </div>
+                  </div>
+            </section>
+            <section class="sec-5"data-aos="fade-up"
+            data-aos-duration="3000">
+                  <div class="container">
+                        <div class="row py-120">
+                              <div class="col-12">
+                                    <div class="latest-heading text-center mb-3">
+                                          <span class="mb-3 d-block">Travel Blog</span>
+                                          <h2 class="fw-bold text-black">Latest Articles</h2>
+                                    </div>
+                              </div>
+                              <div class="col-12 col-lg-6 col-xl-4 pt-5">
+                                    <div class="card-box">
+                                          <div class="card-img mb-4">
+                                                <img src="../image/latest-1.png" alt="card-1" />
+                                          </div>
+                                          <div class="date-box-2 mb-4">
+                                                <a href="#" class="bg-secondary px-4 py-2 rounded text-decoration-none text-white fw-bold">April 7, 2023</a>
+                                          </div>
+                                          <div class="blog-content">
+                                                <h2 class="fw-bold text-black mb-3">Plan the Perfect Vacation</h2>
+                                                <p class="lh-base mb-4">Planning a vacation can be overwhelming, but this post offers a step-by-step
+                                                      guide to help readers create a comprehensive travel itinerary. From choosing a
+                                                      destination to booking accommodations and activities, readers will learn how to
+                                                      plan a stress-free and enjoyable trip.</p>
+                                          </div>
+                                          <div class="read-btn">
+                                                <button class="btn btn-primary fw-bold">Read More</button>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="col-12 col-lg-6 col-xl-4 pt-5">
+                                    <div class="card-box">
+                                          <div class="card-img mb-4">
+                                                <img src="../image/latest-2.png" alt="card-1" />
+                                          </div>
+                                          <div class="date-box-2 mb-4">
+                                                <a href="#" class="bg-secondary px-4 py-2 rounded text-decoration-none text-white fw-bold">April 7, 2023</a>
+                                          </div>
+                                          <div class="blog-content">
+                                                <h2 class="fw-bold text-black mb-3">Plan the Perfect Vacation</h2>
+                                                <p class="lh-base mb-4">Planning a vacation can be overwhelming, but this post offers a step-by-step
+                                                      guide to help readers create a comprehensive travel itinerary. From choosing a
+                                                      destination to booking accommodations and activities, readers will learn how to
+                                                      plan a stress-free and enjoyable trip.</p>
+                                          </div>
+                                          <div class="read-btn">
+                                                <button class="btn btn-primary fw-bold">Read More</button>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="col-12 col-lg-6 col-xl-4 pt-5">
+                                    <div class="card-box">
+                                          <div class="card-img mb-4">
+                                                <img src="../image/latest-3.png" alt="card-1" />
+                                          </div>
+                                          <div class="date-box-2 mb-4">
+                                                <a href="#" class="bg-secondary px-4 py-2 rounded text-decoration-none text-white fw-bold">April 7, 2023</a>
+                                          </div>
+                                          <div class="blog-content">
+                                                <h2 class="fw-bold text-black mb-3">Plan the Perfect Vacation</h2>
+                                                <p class="lh-base mb-4">Planning a vacation can be overwhelming, but this post offers a step-by-step
+                                                      guide to help readers create a comprehensive travel itinerary. From choosing a
+                                                      destination to booking accommodations and activities, readers will learn how to
+                                                      plan a stress-free and enjoyable trip.</p>
+                                          </div>
+                                          <div class="read-btn">
+                                                <button class="btn btn-primary fw-bold">Read More</button>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+        </main>
+        <footer class="footer py-120 pb-0">
+            <div class="container">
+                <div class="row text-white py-120 pt-0">
+                      <div class="col-12 col-lg-6">
+                            <div class="footer-heading">
+                                  <h1 class="fw-bold lh-sm">Travel beyond your imagination, with our Travel Agency!</h1>
+                            </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-lg-3 py-5 py-xl-0">
+                            <div class="footer-add">
+                                  <h4 class="fw-bold mb-4">Address</h4>
+                                  <ul class="list-unstyled">
+                                        <li class="py-1 mb-2 fw-light">1080 Brickell Ave</li>
+                                        <li class="py-1 mb-2 fw-light">Miami - Florida</li>
+                                        <li class="py-1 mb-2 fw-light">U.S. of America</li>
+                                  </ul>
+                                  <ul class="icon-list list-unstyled d-flex">
+                                        <li class="pe-4">
+                                              <a href="#" class="text-white">
+                                                    <i class="fa-brands fa-facebook"></i>
+                                              </a>
+                                        </li>
+                                        <li class="pe-4">
+                                              <a href="#" class="text-white">
+                                                    <i class="fa-brands fa-twitter"></i>
+                                              </a>
+                                        </li>
+                                        <li>
+                                              <a href="#" class="text-white">
+                                                    <i class="fa-brands fa-youtube"></i>
+                                              </a>
+                                        </li>
+                                  </ul>
+                            </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-lg-3 py-5 py-xl-0">
+                            <div class="footer-contact">
+                                  <h4 class="fw-bold mb-4">Contact</h4>
+                                  <div class="info-btn mb-4">
+                                        <a href="#" class="btn btn-primary">info@travel.com</a>
+                                  </div>
+                                  <span class="fw-bold mt-2">+ 01 483 593 284</span>
+                            </div>
+                      </div>
+                </div>
+          </div>
+            <hr style="border-bottom: 2px dotted white;">
+            <section class="">
+                <div class="container">
+                    <div class="row">
+                        <div class="co-12 text-center text-white">
+                           <span class="fw-semibold"> @ copyright </span> <span>|</span> <span style="color: #1BBC9B;">Urvisha Mevada</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+           </footer>
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- aos-amimation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+  </script>
+</body>
+</html>

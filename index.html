@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love-Travel</title>
+    <!-- aos-amimation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- favicon-icon -->
+    <link rel="icon" href="image/favicon.png">
+    <!-- icon -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- main-file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/package.css">
+    
+</head>
+<!-- off-canvas -->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="canvas1" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-body">
+        <div class="offcanvas__wrapper">
+            <div class="offcanvas_content">
+                <div class="offcanvas-top mb-40 d-flex justify-content-between align-items-center">
+                    <div class="canvas-logo">
+                        <a href="./index.html">
+                            <img src="image/logo.png" alt="logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="canvas-close-btn">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="offcanvas__search position-relative mb-0">
+                    <form method="get">
+                        <button type="submit" id="offcanvas-search" ></button>
+                        <input type="text" name="s" value="" placeholder="Search here">
+                    </form>
+                </div>
+                <div class="mobile-menu mt-40">
+                    <div class="menu-bar">
+                        <nav>
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./pages/about.html">About</a></li>
+                                <li><a href="./pages/package.html">Pages</a></li>
+                                <li><a href="./pages/services.html">News</a></li>                                  
+                                <li><a href="./pages/blog.html">Blog</a></li>
+                                <li id="bb" ><a href="./pages/Contact-Us.html">Contact</a></li> 
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="offcanvas__about my-30">
+                    <h4>About Our Travel</h4>
+                    <p>Experience legendary service in the heart of royel. The new generation of luxury. A Haven of Comfort and Elegance in royel</p>
+                </div>
+                <div class="offcanvas__contact my-30">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li class="d-flex align-items-center mb-20 gap-2">
+                            <div class="offcanvas__contact_icon btn-d-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="offcanvas__contact_content">
+                                <a href="#">12/A, Mirnada City Tower, NYC</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center mb-20 gap-2">
+                            <div class="offcanvas__contact_icon btn-d-1">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="offcanvas__contact_content">
+                                <a href="#">+91 8980150444</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center mb-20 gap-2">
+                            <div class="offcanvas__contact_icon btn-d-1">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <div class="offcanvas__contact_content">
+                                <a href="raginirakholiya123@gmail.com">raginirakholiya123@g-...</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="offcanvas__social">
+                    <ul class="d-flex">
+                        <li><a href="#" class="btn-d-1 btn-d-2"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="btn-d-1 btn-d-2"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="btn-d-1 btn-d-2"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<body>
+
+    <div class="Loader-wrraper d-flex justify-center align-center">
+        <div class="loader mx-auto" style="width:80px;  height:80px; margin-top:350px;">
+
+        </div>
+    </div>
+    <header>
+        <div class="header py-2">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-center justify-content-between">
+                    <div class="col-xl-2 col-6">
+                        <div class="head-logo">
+                            <a href="./index.html">
+                                <img src="image/logo.png" class="w-auto"  alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 d-xl-block d-none">
+                        <div class="menu">
+                            <nav>
+                                <ul class="list-unstyled d-flex">
+                                    <li class="p-4">
+                                        <a href="./index.html"  class="text-decoration-none">Home</a>
+                                    </li>
+                                    <li class="p-4 dropdown position-relative">
+                                        <a href="#" class="text-decoration-none">About</a>
+                                        <div class="dropdown-content bg-white rounded">
+                                            <ul>
+                                                <li>
+                                                    <a href="./pages/services.html" class="text-dark text-decoration-none fw-medium">Services</a>
+                                                </li>
+                                                <li>
+                                                    <a href="./pages/about.html" class="text-dark text-decoration-none fw-medium">About Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="./pages/preview.html" class="text-decoration-none fw-medium">Our Preview</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </li>
+                                    <li class="p-4 dropdown position-relative">
+                                        <a href="#" class="text-decoration-none">Pages</a>
+                                        <div class="dropdown-content bg-white rounded">
+                                          <ul>
+                                              <li>
+                                                  <a href="./pages/package-1.html" class="text-dark text-decoration-none fw-medium">Package-1</a>
+                                              </li>
+                                              <li>
+                                                  <a href="./pages/packages-2.html" class="text-decoration-none fw-medium">Package-2</a>
+                                              </li>
+                                              <li>
+                                                  <a href="./pages/package-3.html" class="text-decoration-none fw-medium">Package-3</a>
+                                              </li>
+                                          </ul>
+                                        </div>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </li>
+                                    <li class="p-4">
+                                        <a href="./pages/shop.html" class="text-decoration-none">Shop</a>
+                                    </li>
+                                    <li class="p-4  dropdown position-relative">
+                                      <a href="#" class="text-decoration-none">Blog</a>
+                                        <div class="dropdown-content bg-white rounded">
+                                        <ul>
+                                            <li>
+                                                <a href="./pages/blog.html" class="text-dark fw-medium text-decoration-none">Blog-1</a>
+                                            </li>
+                                            <li>
+                                                <a href="./pages/blog-2.html" class="text-dark fw-medium text-decoration-none">Blog-2</a>
+                                            </li>
+                                            <li>
+                                                <a href="./pages/Greece.html" class="text-dark fw-medium text-decoration-none">Greece</a>
+                                            </li>
+                                            <li>
+                                                <a href="./pages/prices.html" class="text-dark fw-medium text-decoration-none">prices</a>
+                                            </li>
+                                            <li>
+                                                <a href="./pages/typology.html" class="text-dark fw-medium text-decoration-none">Typology</a>
+                                            </li>
+                                        </ul>
+                                        </div>
+                                      <i class="fa-solid fa-chevron-down"></i>
+                                  </li>
+                                    <li class="p-4">
+                                        <a href="./pages/Contact-Us.html" class="text-decoration-none">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-none d-xxl-block d-flex">
+                        <div class="btn btn-primary" btn type="button" data-bs-toggle="offcanvas" data-bs-target="#canvas1" aria-controls="offcanvasRight">
+                            <span>Search</span>
+                        </div>
+                        <div class="btn btn-primary  ms-4">
+                            <span>Book Now</span>
+                        </div>
+                    </div>
+                    <div class="col-3 d-block d-xl-none text-end">
+                        <div class="hamburger-menu" data-bs-toggle="offcanvas" data-bs-target="#canvas1" aria-controls="offcanvasRight">
+                            <a href="#" class="bg-btn px-3 py-2 rounded text-dark">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- banner -->
+        <section>
+            <div class="banner"data-aos="fade-up"
+            data-aos-duration="3000">
+                <div class="banner-img">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-6  d-flex align-items-center pt-5 ">
+                                <div class="banner-content">
+                                    <h6>Embark on Your Next <span style="color:#1BBc9b;">Adventure </span>with Us!</h6>
+                                    <p>"Escape. Explore. Experience.
+                                        Your Journey Starts Here.
+                                        Discover the World Awaits!
+                                        Book Your Adventure Now."</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 pt-5 pt-lg-0">
+                                <form id="book__now">
+                                    <div>
+                                        <div class="d-flex">
+                                            <div>
+                                                <label for="Destination">Your Destination</label>
+                                            </div>
+                                            <div>
+                                                <input type="text" placeholder="Enter Your Destination">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <div>
+                                                    <label for="phone">phone</label>
+                                                </div>
+                                                <div>
+                                                    <input type="number" name="num" placeholder="+91 000-000-0000">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <label for="count">ROOMS</label>
+                                                </div>
+                                                <div>
+                                                    <select>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <div>
+                                                    <label for="number">ADULTS</label>
+                                                </div>
+                                                <div>
+                                                    <select>
+                                                        <option value="1person">1 person</option>
+                                                        <option value="2person">2 person</option>
+                                                        <option value="3person">3 person</option>
+                                                        <option value="4person">4 person</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <label for="number">CHILDREN</label>
+                                                </div>
+                                                <div>
+                                                    <select>
+                                                        <option value="1person">1 person</option>
+                                                        <option value="2person">2 person</option>
+                                                        <option value="3person">3 person</option>
+                                                        <option value="4person">4 person</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <div>
+                                                    <label>CHECK IN</label>
+                                                </div>
+                                                <div>
+                                                    <input type="date" name="checkIn" id="" />
+                                                </div>
+                                            </div>
+                                            <div class="ml-55">
+                                                <div>
+                                                    <label>CHECK OUT</label>
+                                                </div>
+                                                <div>
+                                                    <input type="date" name="checkOut" id=""/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <button id="book-Now-btn">BOOK NOW</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section class="py-120"data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="about-content">
+                                <span>Dream Vacation Destination</span>
+                                <h6 class="fw-bold">Plan the Trip of a Lifetime with Ease</h6>
+                                <p>Whether you're looking for a romantic getaway, a family-friendly adventure, or a
+                                    solo journey to explore the world, a travel agency can provide you with a
+                                    custom-tailored itinerary that exceeds your expectations.</p>
+                                <div class="btn btn-primary mt-2 fw-bold">
+                                    More Info
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6"></div>
+                    </div>
+                    <div class="row mt-5 row-gap-5">
+                        <div class="col-12 col-md-6 col-lg-4"data-aos="fade-up"
+                        data-aos-duration="3000">
+                            <div class="about-img">
+                                <img src="image/Section.jpg" alt="">
+                                <div class="about-img-content d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="./image/icon-visual-01.gif.png" alt="">
+                                    </div>
+                                    <div class="city-name">
+                                        <h6 class="text-white fw-bold">City Walks Tour</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4"data-aos="fade-up"
+                        data-aos-duration="3000">
+                            <div class="about-img">
+                                <img src="image/Section (1).jpg" alt="">
+                                <div class="about-img-content d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="./image/icon-visual-02.gif.png" alt="">
+                                    </div>
+                                    <div class="city-name">
+                                        <h6 class="text-white fw-bold">Electric Bikes</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4"data-aos="fade-up"
+                        data-aos-duration="3000">
+                            <div class="about-img">
+                                <img src="image/Section (2).jpg" alt="">
+                                <div class="about-img-content d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="./image/icon-visual-03.gif.png" alt="">
+                                    </div>
+                                    <div class="city-name">
+                                        <h6 class="text-white fw-bold">Skyscrapers View</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- cards -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-xl-3 col-12" data-aos="fade-up"
+                            data-aos-duration="3000">
+                                <div class="card">
+                                    <img src="./image/detail-1.png" class="card-img-top">
+                                    <div class="card-body">
+                                      <h5 class="card-title fw-bold">San Francisco</h5>
+                                      <div class="days-box bg-white">
+                                          <div class="watch d-flex">
+                                              <i class="fa-solid fa-clock" style="color: #BA71DA;"></i>
+                                              <div class="mail-map d-flex">
+                                                  <div class="mail">
+                                                      <i class="fa-solid fa-envelope" style="color: #BA71DA;"></i>
+                                                  </div>
+                                                  <div class="map">
+                                                      <i class="fa-solid fa-map-pin" style="color: #BA71DA;"></i>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div class="line"></div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">Visit the temples and the Chiang Mai Night
+                                          Bazaar, a huge huge market located on
+                                          Chiang Klan Road.</li>
+                                    </ul>
+                                    <div class="line"></div>
+                                    <div class="card-body d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <span style="font-size: 13px; color: #6E6E6E;">from</span>
+                                            <h2 class="fs-4 fw-bolder">$92</h2>
+                                        </div>
+                                        <button class="btns btn-2 btn-primary text-center border-none" style="background-color: #BA71DA;">
+                                            <span class="text-white">Detail</span>
+                                        </button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-xl-3 col-12"data-aos="fade-up"
+                                data-aos-duration="3000">
+                                    <div class="card">
+                                        <img src="image/detail-2.png" class="card-img-top">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-bold">Rome</h5>
+                                          <div class="days-box bg-white">
+                                              <div class="watch d-flex">
+                                                  <i class="fa-solid fa-clock" style="color: #14B9D5;"></i>
+                                                  <div class="mail-map d-flex">
+                                                      <div class="mail">
+                                                          <i class="fa-solid fa-envelope" style="color: #14B9D5;"></i>
+                                                      </div>
+                                                      <div class="map">
+                                                          <i class="fa-solid fa-map-pin" style="color: #14B9D5;"></i>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </div>
+                                        <div class="line"></div>
+                                        <ul class="list-group list-group-flush">
+                                          <li class="list-group-item">Visit the temples and the Chiang Mai Night
+                                              Bazaar, a huge huge market located on
+                                              Chiang Klan Road.</li>
+                                        </ul>
+                                        <div class="line"></div>
+                                        <div class="card-body d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span style="font-size: 13px; color: #6E6E6E;">from</span>
+                                                <h2 class="fs-4 fw-bolder">$92</h2>
+                                            </div>
+                                            <button class="btns btn-2 btn-primary text-center" style="background-color: #14B9D5;">
+                                                <span class="text-white">Detail</span>
+                                            </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                        <div class="col-md-6 col-xl-3 col-12"data-aos="fade-up"
+                        data-aos-duration="3000">
+                            <div class="card">
+                                <img src="./image/detail-3.png" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Paris</h5>
+                                    <div class="days-box bg-white">
+                                        <div class="watch d-flex">
+                                            <i class="fa-solid fa-clock" style="color: #F76570;"></i>
+                                            <div class="mail-map d-flex">
+                                                <div class="mail">
+                                                    <i class="fa-solid fa-envelope" style="color: #F76570;"></i>
+                                                </div>
+                                                <div class="map">
+                                                    <i class="fa-solid fa-map-pin" style="color: #F76570;"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line"></div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Visit the temples and the Chiang Mai Night
+                                        Bazaar, a huge huge market located on
+                                        Chiang Klan Road.</li>
+                                </ul>
+                                <div class="line"></div>
+                                <div class="card-body d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <span style="font-size: 13px; color: #6E6E6E;">from</span>
+                                        <h2 class="fs-4 fw-bolder">$92</h2>
+                                    </div>
+                                    <button class="btns btn-2 btn-primary text-center" style="background-color: #F76570;">
+                                        <span class="text-white">Detail</span>
+                                    </button>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-3 col-12"data-aos="fade-up"
+                            data-aos-duration="3000">
+                                <div class="card">
+                                    <img src="./image/detail-4.png" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Chao Phraya</h5>
+                                        <div class="days-box bg-white">
+                                            <div class="watch d-flex">
+                                                <i class="fa-solid fa-clock" style="color: #1BBC9B;"></i>
+                                                <div class="mail-map d-flex">
+                                                    <div class="mail">
+                                                        <i class="fa-solid fa-envelope" style="color: #1BBC9B;"></i>
+                                                    </div>
+                                                    <div class="map">
+                                                        <i class="fa-solid fa-map-pin" style="color: #1BBC9B;"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="line"></div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Visit the temples and the Chiang Mai Night
+                                            Bazaar, a huge huge market located on
+                                            Chiang Klan Road.</li>
+                                    </ul>
+                                    <div class="line"></div>
+                                    <div class="card-body d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <span style="font-size: 13px; color: #6E6E6E;">from</span>
+                                            <h2 class="fs-4 fw-bolder">$92</h2>
+                                        </div>
+                                        <button class="btns btn-2 btn-primary text-center" style="background-color: #1BBC9B;">
+                                            <span class="text-white">Detail</span>
+                                        </button>
+                                    </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- choose-your-trip -->
+        <section class="py-120" style="background-color: #f2f2f2;"data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="choose-your-trip">
+                            <span>Choose your Trip</span>
+                            <h6 class="fw-bold">Start your Vacation Now</h6>
+                            <p>Looking for your dream vacation destination but don't know where to start? With the help of <br>
+                                experienced and knowledgeable travel agents, you can plan the trip of a lifetime with ease.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video"data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class="container">
+                <div class="row row-gap-50">
+                    <div class="col-lg-3 col-6">
+                        <div class="comments">
+                            <span id="count-1" class="text-white">145</span>
+                            <h5 class="text-white">BLOG POSTS</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="comments">
+                            <span id="count-2"class="text-white">95</span>
+                            <h5 class="text-white">HAPPY CLIENTS</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="comments">
+                            <span id="count-3"class="text-white">150</span>
+                            <h5 class="text-white">OUR BRANCHES</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="comments">
+                            <span id="count-4"class="text-white">100</span>
+                            <h5 class="text-white">WEB AWARDS</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+        <!-- Next Adventure -->
+        <section class="py-120"data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-6">
+                        <div class="next-adventure-content">
+                            <span class="fw-bold">Next Adventure</span>
+                            <h6 class="fw-bold">Travel Destinations
+                                Available Worldwide</h6>
+                            <p>We have compiled a list of top destinations across the globe, scoured the world
+                                for the most alluring and fascinating places to visit. From the beautiful beaches
+                                of the Caribbean to the majestic mountains of Europe and the vibrant cities of
+                                Asia, our destination list has something for everyone.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5 row-gap-5">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="next-adventure-img-box">
+                            <div class="ad-img">
+                                <img src="image/symbols.png" alt="">
+                            </div>
+                            <div class="next-adventure-img-content">
+                                <h6 class="text-white fw-bold">Greece</h6>
+                                <p class="text-white">Experience the ancient history & beaches</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="next-adventure-img-box">
+                            <div class="ad-img">
+                                <img src="image/symbols-2.png" alt="">
+                            </div>
+                            <div class="next-adventure-img-content">
+                                <h6 class="text-white fw-bold">Egypt</h6>
+                                <p class="text-white">Discover the land of pharaohs & pyramids</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="next-adventure-img-box">
+                            <div class="ad-img">
+                                <img src="image/symbols-3.png" alt="">
+                            </div>
+                            <div class="next-adventure-img-content">
+                                <h6 class="text-white fw-bold">Africa</h6>
+                                <p class="text-white">Embark on a journey for your lifetime</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="next-adventure-img-box">
+                            <div class="ad-img">
+                                <img src="image/Symbols-4.png" alt="">
+                            </div>
+                            <div class="next-adventure-img-content">
+                                <h6 class="text-white fw-bold">Greece</h6>
+                                <p class="text-white">Indulge in the art, culture, and cuisine</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Adventure Travel -->
+        <section class="py-120 Adventure-travel"data-aos="fade-up"
+        data-aos-duration="3000">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-12 col-lg-6">
+                            <div class="Adventure-travel-img-content">
+                                <img src="image/thirll.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 d-none d-lg-block col-lg-6">
+                            <div class="Adventure-travel-img-content">
+                                <span class="text-white">Adventure Travel</span>
+                                <h6 class="text-white fw-bold">Embrace the Thrill of the Unknown</h6>
+                                <p class="text-white">Are you tired of the typical tourist destinations and looking to step out of
+                                    your comfort zone? Adventure travel may be the perfect solution for you!
+                                    Here are four reasons why you should book an adventure travel experience :</p>
+                                <div class="At-img-content d-flex">
+                                    <div class="icon">
+                                        <img src="./image/Symbols-5.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h5 class="text-white">Connect with nature</h5>
+                                    </div>
+                                </div>
+                                <div class="line"></div>
+                                <div class="At-img-content d-flex">
+                                    <div class="icon">
+                                        <img src="./image/Symbols-5.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h5 class="text-white">Connect with nature</h5>
+                                    </div>
+                                </div>
+                                <div class="line"></div>
+                                <div class="At-img-content d-flex">
+                                    <div class="icon">
+                                        <img src="./image/Symbols-5.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h5 class="text-white">Connect with nature</h5>
+                                    </div>
+                                </div>
+
+                                <div class="btn btn-primary mt-4">
+                                    <span class="text-white fs-6" style="font-family: 'Poppins';">All Services</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- logo-section -->
+        <section class="py-120 logo-section"data-aos="fade-up" style="background-color: #f2f2f2;"
+        data-aos-duration="3000">
+            <div class=" p-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-lg-3">
+                            <div class="company-logo">
+                                <img src="image/e-logos-01.png.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="company-logo">
+                                <img src="image/e-logos-02.png.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3 d-none d-lg-block">
+                            <div class="company-logo">
+                                <img src="image/e-logos-03.png.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3 d-none d-lg-block">
+                            <div class="company-logo">
+                                <img src="image/e-logos-04.png.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- unforgatteable travel -->
+        <section class="pb-150"data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class=" unforgatteable-travel">
+                <div class="container">
+                    <div class="row d-flex align-items-center justify-content-between py-5">
+                        <div class="col-12 col-xl-6">
+                            <div class="unforgatteable-content">
+                                <h6 class="text-white fw-bold">Unforgettable Travel Experiences</h6>
+                                <p class="text-white">Our customer's feedback is essential in building a great reputation and
+                                maintaining excellent service. By listening to our customer's needs, we can
+                                improve our offerings and provide an exceptional travel experience.</p>
+                            </div>
+                        </div>
+                        <!-- <div class="col-6">
+                            <div class="unforgatteable-img text-center">
+                                <img src="image/girl.png" class="img-fluid" alt="">
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="row row-gap-5">
+                        <div class="col-12 col-lg-6">
+                            <div class="travel-review-box p-4 text-white">
+                                <p>My husband and I have been using this
+                                    travel agency for years and they have
+                                    never disappointed us.</p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="image/avatar-03.jpeg.png" alt="">
+                                        </div>
+                                        <div class="px-4"> 
+                                            <h6>Jennifer and Mark</h6>
+                                            <span>San Francisco</span>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="travel-review-box p-4 text-white">
+                                <p>This travel agency made my dream trip to
+                                    Europe a reality. They worked with me
+                                    every step of the way to plan the itinerary.</p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="image/avatar-04.jpeg.png" alt="">
+                                        </div>
+                                        <div class="px-4"> 
+                                            <h6>Dylan and Emily</h6>
+                                            <span>Miami</span>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- travel package -->
+        <section class="py-120"data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class="container">
+                <div class="row d-flex text-center">
+                    <div class="col-12">
+                        <div class="travel-package">
+                            <span>Clear Price</span>
+                            <h6 class="fw-bold">Affordable Travel Packages</h6>
+                            <p>We believe that everyone deserves to experience their dream vacation without breaking the bank. <br>
+                                That's why we offer a price section on our website that features a range of affordable travel</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-5">
+                        <div class="package-card">
+                            <h6 class="fw-bold">Half Board</h6>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div>
+                                    <h2>$ 50 </h2>
+                                </div>
+                                <div>
+                                    <span>/ Day</span>
+                                </div>
+                            </div>                           
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="text-decoration-none">Transfers from Airport</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Minimum 3 Star Hotel</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Alcoholic beverages</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Incl. Museum Tickets</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Meals in Restaurants</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-5">
+                        <div class="package-card" style="background-color: #1BBc9b;">
+                            <h6 class="text-white fw-bold">Half Board</h6>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div>
+                                    <h2 class="text-white">$ 50 </h2>
+                                </div>
+                                <div>
+                                    <span class="text-white">/ Day</span>
+                                </div>
+                            </div>                           
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="text-decoration-none text-white">Transfers from Airport</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-white">Minimum 3 Star Hotel</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-white">Alcoholic beverages</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-white">Incl. Museum Tickets</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-white">Meals in Restaurants</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-5">
+                        <div class="package-card" style="background-color: #434A54;">
+                            <h6 class="text-white fw-bold">Half Board</h6>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div>
+                                    <h2 class="text-white">$ 50 </h2>
+                                </div>
+                                <div>
+                                    <span class="text-white">/ Day</span>
+                                </div>
+                            </div>                           
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="text-decoration-none text-white">Transfers from Airport</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-white">Minimum 3 Star Hotel</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-white">Alcoholic beverages</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-white">Incl. Museum Tickets</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-white">Meals in Restaurants</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- discover-adventure -->
+        <section data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-12 col-lg-6">
+                        <div class="discover-adventure">
+                            <span>Wandering Souls</span>
+                            <h6 class="fw-bold">Discover Your Next Adventure</h6>
+                            <p>Whether you're planning a romantic honeymoon or a family vacation, our
+                                price section has got you covered. So, start browsing today and find the
+                                perfect vacation package at a price that won't leave you feeling guilty.</p>
+                            <h5>Organized Group Tour</h5>
+                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                            <h5>Organized Group Tour</h5>
+                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                            <div class="pt-5">
+                                <div class="btn btn-primary fw-bold">
+                                    MORE INFO
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="discover-adventure-img">
+                            <img src="image/right-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- travel-blog -->
+    <section class="py-120"data-aos="fade-up"
+    data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="travel-blog">
+                        <span>Roaming Tales</span>
+                        <h6 class="fw-bold">Travel Blog</h6>
+                        <p>We share our experiences, tips and travel stories to inspire and guide our readers in their own <br>
+                            wanderlust adventures. From hidden gems to popular destinations, we showcase the beauty and <br>
+                            diversity of the world, and promote responsible and sustainable travel.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 pt-5">
+                    <div class="travel-blog-img">
+                        <img src="image/travel-blog-main.jpg" alt="">
+                        <h5 class="fw-bold pt-5">Plan the Perfect Vacation</h5>
+                        <p>Planning a vacation can be overwhelming, but this post offers a step-by-step
+                            guide to help readers create a comprehensive travel itinerary. From choosing a
+                            destination to booking accommodations and activities, readers will learn how
+                            to plan a stress-free and enjoyable trip.</p>
+                        <div class="btn btn-primary fw-bold">
+                            Read More
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 pt-5">
+                    <div class="col-12 travel-places d-flex pb-4">
+                        <div class="place-img">
+                            <img src="image/place-1.png" class="w-auto" alt="place-1" />
+                        </div>
+                        <div class="place-details w-auto">
+                            <div class="date-btn">
+                                <a href="#" class="bg-btn text-decoration-none px-3 py-2 fw-bold" style="border-radius: 10px; color: white;">April 7, 2023</a>
+                            </div>
+                            <div class="place-content">
+                                <h6 class="fw-bold w-auto">Discover the Hidden Gems</h6>
+                                <p class="w-auto">Benefits of traveling alone, from the freedom to
+                                    discover new places with new friends.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 travel-places d-flex  pb-4">
+                        <div class="place-img">
+                            <img src="image/place-2.png" class="w-auto" alt="place-2" />
+                        </div>
+                        <div class="place-details">
+                            <div class="date-btn">
+                                <a href="#" class="bg-btn text-decoration-none px-3 py-2 fw-bold" style="border-radius: 10px; color: white;">April 7, 2023</a>
+                            </div>
+                            <div class="place-content">
+                                <h6 class="fw-bold">Discover the Hidden Gems</h6>
+                                <p>Benefits of traveling alone, from the freedom to
+                                    discover new places with new friends.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 travel-places d-flex  pb-4">
+                        <div class="place-img">
+                            <img src="image/place-3.png" class="w-auto" alt="place-3" />
+                        </div>
+                        <div class="place-details">
+                            <div class="date-btn">
+                                <a href="#" class="bg-btn text-decoration-none px-3 py-2 fw-bold" style="border-radius: 10px; color: white;">April 7, 2023</a>
+                            </div>
+                            <div class="place-content">
+                                <h6 class="fw-bold">Discover the Hidden Gems</h6>
+                                <p>Benefits of traveling alone, from the freedom to
+                                    discover new places with new friends.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 travel-places d-flex  pb-4">
+                        <div class="place-img">
+                            <img src="image/place-4.png" class="w-auto" alt="place-4" />
+                        </div>
+                        <div class="place-details">
+                            <div class="date-btn">
+                                <a href="#" class="bg-btn text-decoration-none px-3 py-2 fw-bold" style="border-radius: 10px; color: white;">April 7, 2023</a>
+                            </div>
+                            <div class="place-content">
+                                <h6 class="fw-bold">Discover the Hidden Gems</h6>
+                                <p>Benefits of traveling alone, from the freedom to
+                                    discover new places with new friends.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer py-120 pb-0">
+        <div class="container">
+            <div class="row text-white py-120 pt-0">
+                  <div class="col-12 col-lg-6">
+                        <div class="footer-heading">
+                              <h1 class="fw-bold lh-sm">Travel beyond your imagination, with our Travel Agency!</h1>
+                        </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 py-5 py-xl-0">
+                        <div class="footer-add">
+                              <h4 class="fw-bold mb-4">Address</h4>
+                              <ul class="list-unstyled">
+                                    <li class="py-1 mb-2 fw-light">1080 Brickell Ave</li>
+                                    <li class="py-1 mb-2 fw-light">Miami - Florida</li>
+                                    <li class="py-1 mb-2 fw-light">U.S. of America</li>
+                              </ul>
+                              <ul class="icon-list list-unstyled d-flex">
+                                    <li class="pe-4">
+                                          <a href="#" class="text-white">
+                                                <i class="fa-brands fa-facebook"></i>
+                                          </a>
+                                    </li>
+                                    <li class="pe-4">
+                                          <a href="#" class="text-white">
+                                                <i class="fa-brands fa-twitter"></i>
+                                          </a>
+                                    </li>
+                                    <li>
+                                          <a href="#" class="text-white">
+                                                <i class="fa-brands fa-youtube"></i>
+                                          </a>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 py-5 py-xl-0">
+                        <div class="footer-contact">
+                              <h4 class="fw-bold mb-4">Contact</h4>
+                              <div class="info-btn mb-4">
+                                    <a href="#" class="btn btn-primary">info@travel.com</a>
+                              </div>
+                              <span class="fw-bold mt-2">+ 01 483 593 284</span>
+                        </div>
+                  </div>
+            </div>
+      </div>
+        <hr style="border-bottom: 2px dotted white;">
+        <section class="">
+            <div class="container">
+                <div class="row">
+                    <div class="co-12 text-center text-white">
+                       <span class="fw-semibold"> @ copyright : Team-C</span> <span>|</span> <span style="color: #1BBC9B;">Dhara Chaudhary & Ragini Rakholiya</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+       </footer>
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- count -->
+    <script src="js/countMe.min.js"></script>
+    <script>
+    window.onload = ()=>{
+        // $(selector).countMe(delay,speed)
+        $("#count-1").countMe(40,85);
+        $("#count-2").countMe(30, 40);
+        $("#count-3").countMe(40, 80);
+        $("#count-4").countMe(100,180);
+    }
+    </script>
+    <!-- aos-amimation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+    AOS.init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+img{
+      width: 100%;
+}
+.header{
+      background-color: var(--sec-color);
+}
+.bg-btn{
+      background-color: #11BB9C;
+}
+.py-120{
+      padding-top: 120px;
+      padding-bottom: 120px;
+}
+/* services */
+.services{
+      background: rgba(0, 0, 0, 0.3) url('../image/services-banner.jpg');
+      width: 100%;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-blend-mode: darken;
+}
+.tourists .hotspots p{
+      font-size: 16px;
+}
+.tourists-img-2 img{
+      margin-top: 70px;
+}
+.tourists-img-3 img{
+      margin-top: 140px;
+}
+.service-help-bg{
+      background: rgba(0, 0, 0, 0.3) url('../image/services.png');
+      width: 100%;
+      height: 692px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top center;
+      background-blend-mode: darken;
+}
+.service-help-bg .service-head h2{
+      font-size: 60px;
+}
+.service-help-bg .service-head p{
+      font-size: 20px;
+}
+.trip .trip-heading h1{
+      font-size: 40px;
+}
+
+/* blog */
+.blog{
+      background: rgba(0, 0, 0, 0.3) url('../image/blog-banner.jpg');
+      width: 100%;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-blend-mode: darken;
+}
+.blog-card .blog-content p, .client-slider p, .travel-detail p, .tourists .hotspots p, .hotspots .line p{
+      color: var(--blog-para-color);
+}
+.blog-card .read-btn{
+      font-family: 14px;
+}
+.client-slider p, .client-slider .user-name h5{
+      font-size: 18px;
+}
+.client-slider .user-name span{
+      font-size: 14px;
+      color: var(--blog-para-color);
+}
+.travel-detail p{
+      font-size: 16px;
+}
+.preview-box h2{
+      font-size: 38px;
+}
+
+/* blog-2 */
+.blog-2{
+      background-color: var(--sec-color);
+      height: 613px;
+}
+.blog-2 .drop-button a i{
+      font-size: 21px;
+}
+.blog-para p,.by-side-content p{
+      font-size: 16px;
+      color: var(--blog-para-color);
+}
+.client-slider .slider{
+      background-color: var(--sec-color);
+      border-radius: 15px;
+}
+.latest-heading span, .tourists .hotspots span, .adventures .vacation-heading span,
+.number-side .by-side-content span, .trip .trip-heading span{
+      font-family: var(--sans-serif-font);
+      color: var(--primary-color);
+      font-size: 30px;
+}
+.latest-heading h2, .tourists .hotspots h1, .by-side-content h1{
+      font-size: 50px;
+}

@@ -1,0 +1,112 @@
+.header{
+      background-color: var(--sec-color);
+}
+.bg-btn{
+      background-color: #11BB9C;
+}
+.py-120{
+      padding-top: 120px;
+      padding-bottom: 120px;
+}
+
+/* typology */
+.typology{
+      background: rgba(0, 0, 0, 0.3) url('../image/typology-banner.jpg');
+      width: 100%;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-blend-mode: darken;
+} 
+.packages .package-img{
+      position: relative;
+}
+.packages .package-img::before{
+      position: absolute;
+      content: '';
+      width: 655px;
+      height: 100%;
+      border-radius: 15px;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+}
+.banner, .packages .package-content, .blog-card .date-box-2 a, .blog-card .blog-content, .blog-card .read-btn button,.blog-2,.blog-para p, .footer, .client-slider .slider p,
+.client-slider .user-name{
+      font-family: var(--sans-font);
+}
+.packages .all-type a{
+      font-size: 14px;
+}
+.packages .package-detail h4{
+      font-size: 20px;
+}
+.packages .package-detail p{
+      font-size: 16px;
+}
+
+/* blog */
+.blog{
+      background: rgba(0, 0, 0, 0.3) url('../image/blog-banner.jpg');
+      width: 100%;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-blend-mode: darken;
+}
+.blog-card .blog-content p, .client-slider p{
+      color: var(--blog-para-color);
+}
+.blog-card .read-btn{
+      font-family: 14px;
+}
+.client-slider p, .client-slider .user-name h5{
+      font-size: 18px;
+}
+.client-slider .user-name span{
+      font-size: 14px;
+      color: var(--blog-para-color);
+}
+
+/* blog-2 */
+.blog-2{
+      background-color: var(--sec-color);
+      height: 613px;
+}
+.blog-2 .drop-button a i{
+      font-size: 21px;
+}
+.blog-para p{
+      font-size: 16px;
+      color: var(--blog-para-color);
+}
+.client-slider .slider{
+      background-color: var(--sec-color);
+      border-radius: 15px;
+}
+ 
+/* footer */
+.footer{
+      background:rgba(67, 74, 84, 1) url('../image/overlay.png');
+      width: 100%;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+}
+.footer-heading h1{
+      font-size: 50px;
+}
+.footer-add h4, .footer-contact h4{
+      font-size: 20px;
+}
+.footer-add .icon-list a i{
+      font-size: 18px;
+}
+.footer-contact span{
+      font-size: 25px;
+}

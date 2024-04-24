@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Typology</title>
+      <!-- favicon-icon -->
+    <link rel="icon" href="../image/favicon.png">
+       <!-- aos-amimation -->
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- all-min-css -->
+      <link href="../css/all.min.css" rel="stylesheet" />
+      <!-- fonts-css -->
+      <link href="../css/fonts.css" rel="stylesheet" />
+      <!-- bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+      <!-- style-css -->
+       <link rel="stylesheet" href="../css/package.css">
+</head>
+<!-- off-canvas -->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="canvas1" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-body">
+        <div class="offcanvas__wrapper">
+            <div class="offcanvas_content">
+                <div class="offcanvas-top mb-40 d-flex justify-content-between align-items-center">
+                    <div class="canvas-logo">
+                        <a href="../index.html">
+                            <img src="../image/logo.png" alt="logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="canvas-close-btn">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="offcanvas__search position-relative mb-0">
+                    <form method="get">
+                        <button type="submit" id="offcanvas-search" ></button>
+                        <input type="text" name="s" value="" placeholder="Search here">
+                    </form>
+                </div>
+                <div class="mobile-menu mt-40">
+                    <div class="menu-bar">
+                        <nav>
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./package-1.html">Pages</a></li>
+                                <li><a href="./services.html">News</a></li>                                  
+                                <li><a href="./blog.html">blog</a></li>
+                                <li id="bb" ><a href="./Contact-Us.html">contact</a></li> 
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="offcanvas__about my-30">
+                    <h4>About Our Travel</h4>
+                    <p>Experience legendary service in the heart of royel. The new generation of luxury. A Haven of Comfort and Elegance in royel</p>
+                </div>
+                <div class="offcanvas__contact my-30">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li class="d-flex align-items-center mb-20 gap-2">
+                            <div class="offcanvas__contact_icon btn-d-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="offcanvas__contact_content">
+                                <a href="#">12/A, Mirnada City Tower, NYC</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center mb-20 gap-2">
+                            <div class="offcanvas__contact_icon btn-d-1">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="offcanvas__contact_content">
+                                <a href="#">+91 8980150444</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center mb-20 gap-2">
+                            <div class="offcanvas__contact_icon btn-d-1">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <div class="offcanvas__contact_content">
+                                <a href="raginirakholiya123@gmail.com">raginirakholiya123@g-...</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="offcanvas__social">
+                    <ul class="d-flex">
+                        <li><a href="#" class="btn-d-1 btn-d-2"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="btn-d-1 btn-d-2"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="btn-d-1 btn-d-2"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<body>
+    <header>
+        <div class="header py-2">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-center justify-content-between">
+                    <div class="col-xl-2 col-6">
+                        <div class="head-logo">
+                            <a href="../index.html">
+                                <img src="../image/logo.png" class="w-auto" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 d-xl-block d-none">
+                        <div class="menu">
+                            <nav>
+                                <ul class="list-unstyled d-flex">
+                                    <li class="p-4">
+                                        <a href="../index.html"  class="text-decoration-none">Home</a>
+                                    </li>
+                                    <li class="p-4 dropdown position-relative">
+                                        <a href="#" class="text-decoration-none">About</a>
+                                        <div class="dropdown-content bg-white rounded">
+                                            <ul>
+                                                <li>
+                                                    <a href="../pages/services.html" class="text-dark text-decoration-none fw-medium">Services</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../pages/about.html" class="text-dark text-decoration-none fw-medium">About Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../pages/preview.html" class="text-decoration-none fw-medium">Our Preview</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </li>
+                                      <li class="p-4  dropdown position-relative">
+                                        <a href="#" class="text-decoration-none">Pages</a>
+                                        <div class="dropdown-content bg-white rounded">
+                                              <ul>
+                                                  <li>
+                                                      <a href="../pages/package-1.html" class="text-dark text-decoration-none fw-medium">Package-1</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/packages-2.html" class="text-decoration-none fw-medium">Package-2</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/package-3.html" class="text-decoration-none fw-medium">Package-3</a>
+                                                  </li>
+                                              </ul>
+                                        </div>
+                                          <i class="fa-solid fa-chevron-down"></i>
+                                      </li>
+                                      <li class="p-4">
+                                          <a href="./shop.html" class="text-decoration-none">Shop</a>
+                                      </li>
+                                      <li class="p-4  dropdown position-relative">
+                                        <a href="#" class="text-decoration-none">Blog</a>
+                                        <div class="dropdown-content bg-white rounded">
+                                              <ul>
+                                                  <li>
+                                                      <a href="../pages/blog.html" class="text-dark fw-medium text-decoration-none">Blog-1</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/blog-2.html" class="text-dark fw-medium text-decoration-none">Blog-2</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/Greece.html" class="text-dark fw-medium text-decoration-none">Greece</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/prices.html" class="text-dark fw-medium text-decoration-none">prices</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="../pages/typology.html" class="text-dark fw-medium text-decoration-none">Typology</a>
+                                                  </li>
+                                              </ul>
+                                              </div>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </li>
+                                    <li class="p-4">
+                                        <a href="../pages/Contact-Us.html" class="text-decoration-none">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-none d-xxl-block d-flex">
+                        <div class="btn btn-primary" btn type="button" data-bs-toggle="offcanvas" data-bs-target="#canvas1" aria-controls="offcanvasRight">
+                            <span>Search</span>
+                        </div>
+                        <div class="btn btn-primary ms-4">
+                            <span>Book Now</span>
+                        </div>
+                    </div>
+                    <div class="col-3 d-block d-xl-none text-end">
+                      <div class="hamburger-menu" data-bs-toggle="offcanvas" data-bs-target="#canvas1" aria-controls="offcanvasRight">
+                          <a href="#" class="bg-btn px-3 py-2 rounded text-dark">
+                              <i class="fa-solid fa-bars"></i>
+                          </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+        <main>
+            <section class="typology banner position-relative"data-aos="fade-up"
+            data-aos-duration="3000">
+                <div class="banner-content position-absolute top-50 start-50 translate-middle text-white">
+                    <h1 class="fw-bold ">Typologies</h1>
+                </div>
+            </section>
+            <section class="packages py-120"data-aos="fade-up"
+            data-aos-duration="3000">
+                <div class="container">
+                    <div class="row row-gap-5">
+                        <div class="col-12 col-lg-6"data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <div class="package-box position-relative">
+                                <div class="package-img">
+                                    <img src="../image/package-1.png" alt="img-1"/>
+                                </div>
+                                <div class="package-content z-3">
+                                    <div class="all-type position-absolute top-0 end-0 pt-4">
+                                        <a href="#" class="bg-secondary rounded-pill px-3 py-2 text-decoration-none text-white fw-light">ALL PACKAGES</a>
+                                    </div>
+                                    <div class="package-detail position-absolute bottom-0 start-50 translate-middle-x text-white text-center">
+                                        <h4 class="fw-bold mb-2">Sports Activities</h4>
+                                        <p class="fw-light">Get your adrenaline pumping</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6"data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <div class="package-box position-relative">
+                                <div class="package-img">
+                                    <img src="../image/package-2.png" alt="img-2" />
+                                </div>
+                                <div class="package-content z-3">
+                                    <div class="all-type position-absolute top-0 end-0 pt-4">
+                                        <a href="#" class="bg-btn rounded-pill px-3 py-2 text-decoration-none text-white fw-light">ALL PACKAGES</a>
+                                    </div>
+                                    <div class="package-detail position-absolute bottom-0 start-50 translate-middle-x text-white text-center">
+                                        <h4 class="fw-bold mb-2">Family-Friendly</h4>
+                                        <p class="fw-light">Unforgettable memories with kids</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6"data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <div class="package-box position-relative">
+                                <div class="package-img">
+                                    <img src="../image/package-3.png" alt="img-3" />
+                                </div>
+                                <div class="package-content z-3">
+                                    <div class="all-type position-absolute top-0 end-0 pt-4">
+                                        <a href="#" class="bg-secondary rounded-pill px-3 py-2 text-decoration-none text-white fw-light">ALL PACKAGES</a>
+                                    </div>
+                                    <div class="package-detail position-absolute bottom-0 start-50 translate-middle-x text-white text-center">
+                                        <h4 class="fw-bold mb-2">Heritage Tours</h4>
+                                        <p class="fw-light">Discover the ancient past</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6"data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <div class="package-box position-relative">
+                                <div class="package-img">
+                                    <img src="../image/package-4.png" alt="img-4" />
+                                </div>
+                                <div class="package-content z-3">
+                                    <div class="all-type position-absolute top-0 end-0 pt-4">
+                                        <a href="#" class="bg-btn rounded-pill px-3 py-2 text-decoration-none text-white fw-light">ALL PACKAGES</a>
+                                    </div>
+                                    <div class="package-detail position-absolute bottom-0 start-50 translate-middle-x text-white text-center">
+                                        <h4 class="fw-bold mb-2">Road Trips</h4>
+                                        <p class="fw-light">Hit the road and make memories</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6"data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <div class="package-box position-relative">
+                                <div class="package-img">
+                                    <img src="../image/package-5.png" alt="img-5" />
+                                </div>
+                                <div class="package-content z-3">
+                                    <div class="all-type position-absolute top-0 end-0 pt-4">
+                                        <a href="#" class="bg-secondary rounded-pill px-3 py-2 text-decoration-none text-white fw-light">ALL PACKAGES</a>
+                                    </div>
+                                    <div class="package-detail position-absolute bottom-0 start-50 translate-middle-x text-white text-center">
+                                        <h4 class="fw-bold mb-2">Budget Travel</h4>
+                                        <p class="fw-light">Travel more, spend less</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6"data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <div class="package-box position-relative">
+                                <div class="package-img">
+                                    <img src="../image/package-6.png" alt="img-6" />
+                                </div>
+                                <div class="package-content z-3">
+                                    <div class="all-type position-absolute top-0 end-0 pt-4">
+                                        <a href="#" class="bg-btn rounded-pill px-3 py-2 text-decoration-none text-white fw-light">ALL PACKAGES</a>
+                                    </div>
+                                    <div class="package-detail position-absolute bottom-0 start-50 translate-middle-x text-white text-center">
+                                        <h4 class="fw-bold mb-2">Culinary Tourism</h4>
+                                        <p class="fw-light">Experience the world through your taste</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6"data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <div class="package-box position-relative">
+                                <div class="package-img">
+                                    <img src="../image/package-7.png" alt="img-7" />
+                                </div>
+                                <div class="package-content z-3">
+                                    <div class="all-type position-absolute top-0 end-0 pt-4">
+                                        <a href="#" class="bg-secondary rounded-pill px-3 py-2 text-decoration-none text-white fw-light">ALL PACKAGES</a>
+                                    </div>
+                                    <div class="package-detail position-absolute bottom-0 start-50 translate-middle-x text-white text-center">
+                                        <h4 class="fw-bold mb-2">Eco-tourism</h4>
+                                        <p class="fw-light">Travel responsibly and sustainably</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6"data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <div class="package-box position-relative">
+                                <div class="package-img">
+                                    <img src="../image/package-8.png" alt="img-8" />
+                                </div>
+                                <div class="package-content z-3">
+                                    <div class="all-type position-absolute top-0 end-0 pt-4">
+                                        <a href="#" class="bg-btn rounded-pill px-3 py-2 text-decoration-none text-white fw-light">ALL PACKAGES</a>
+                                    </div>
+                                    <div class="package-detail position-absolute bottom-0 start-50 translate-middle-x text-white text-center">
+                                        <h4 class="fw-bold mb-2">Adventure Travel</h4>
+                                        <p class="fw-light">Unleash your inner adventurer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6"data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <div class="package-box position-relative">
+                                <div class="package-img">
+                                    <img src="../image/package-9.png" alt="img-9" />
+                                </div>
+                                <div class="package-content z-3">
+                                    <div class="all-type position-absolute top-0 end-0 pt-4">
+                                        <a href="#" class="bg-secondary rounded-pill px-3 py-2 text-decoration-none text-white fw-light">ALL PACKAGES</a>
+                                    </div>
+                                    <div class="package-detail position-absolute bottom-0 start-50 translate-middle-x text-white text-center">
+                                        <h4 class="fw-bold mb-2">Beach Holidays</h4>
+                                        <p class="fw-light">Relax, unwind, and soak up the sun</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6"data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <div class="package-box position-relative">
+                                <div class="package-img">
+                                    <img src="../image/package-10.png" alt="img-10" />
+                                </div>
+                                <div class="package-content z-3">
+                                    <div class="all-type position-absolute top-0 end-0 pt-4">
+                                        <a href="#" class="bg-btn rounded-pill px-3 py-2 text-decoration-none text-white fw-light">ALL PACKAGES</a>
+                                    </div>
+                                    <div class="package-detail position-absolute bottom-0 start-50 translate-middle-x text-white text-center">
+                                        <h4 class="fw-bold mb-2">Cultural Tours</h4>
+                                        <p class="fw-light">Immerse yourself in the local culture</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer py-120 pb-0">
+            <div class="container">
+                <div class="row text-white py-120 pt-0">
+                      <div class="col-12 col-lg-6">
+                            <div class="footer-heading">
+                                  <h1 class="fw-bold lh-sm">Travel beyond your imagination, with our Travel Agency!</h1>
+                            </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-lg-3 py-5 py-xl-0">
+                            <div class="footer-add">
+                                  <h4 class="fw-bold mb-4">Address</h4>
+                                  <ul class="list-unstyled">
+                                        <li class="py-1 mb-2 fw-light">1080 Brickell Ave</li>
+                                        <li class="py-1 mb-2 fw-light">Miami - Florida</li>
+                                        <li class="py-1 mb-2 fw-light">U.S. of America</li>
+                                  </ul>
+                                  <ul class="icon-list list-unstyled d-flex">
+                                        <li class="pe-4">
+                                              <a href="#" class="text-white">
+                                                    <i class="fa-brands fa-facebook"></i>
+                                              </a>
+                                        </li>
+                                        <li class="pe-4">
+                                              <a href="#" class="text-white">
+                                                    <i class="fa-brands fa-twitter"></i>
+                                              </a>
+                                        </li>
+                                        <li>
+                                              <a href="#" class="text-white">
+                                                    <i class="fa-brands fa-youtube"></i>
+                                              </a>
+                                        </li>
+                                  </ul>
+                            </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-lg-3 py-5 py-xl-0">
+                            <div class="footer-contact">
+                                  <h4 class="fw-bold mb-4">Contact</h4>
+                                  <div class="info-btn mb-4">
+                                        <a href="#" class="btn btn-primary">info@travel.com</a>
+                                  </div>
+                                  <span class="fw-bold mt-2">+ 01 483 593 284</span>
+                            </div>
+                      </div>
+                </div>
+          </div>
+            <hr style="border-bottom: 2px dotted white;">
+            <section class="">
+                <div class="container">
+                    <div class="row">
+                        <div class="co-12 text-center text-white">
+                           <span class="fw-semibold"> @ copyright : Team-C</span> <span>|</span> <span style="color: #1BBC9B;">Urvisha Mevada & Ragini Rakholiya</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+               </footer>
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- aos-animation -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
+</html>
